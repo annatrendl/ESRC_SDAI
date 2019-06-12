@@ -1,12 +1,21 @@
-\documentclass[12pt, letterpaper]{article}
+\documentclass[12pt, a4paper]{article}
+
+% Helvetica
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+
+% 1" margins
+\usepackage[margin=1in]{geometry}
+
 \usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage[center]{caption}
 \usepackage{hyperref}
 
 \usepackage{apacite} 
-\usepackage{setspace}
-\doublespacing
+%\usepackage{setspace}
+%\doublespacing
 
 \definecolor{green}{rgb}{0,1,0}
 \newcommand{\NS}[1] {{\textcolor{green}{#1}}}
