@@ -72,11 +72,15 @@ We will use the CSEW to understand the demographic and socioeconomic predictors 
 
 Regression 1: data --- subset of people who in CSEW responding that they have been abused
 
+	abuse or not ~
+   	[demographics] age + sex + marital status + earnings + ...
+	other crime dummies + ...
+
+
 	unreported abuse / reported abuse ~ 
 	[demographics] age + sex + marital status + earnings + ... 
 	other crime dummies + ...
 	[information about abuse] level of harm + ...
-	[geomatched stuff] socioeconomic status
 	
 
 Respondents also answered questions indicating the level of harm that they have suffered, which will allow us to estimate how reporting and police awareness depend upon the level of harm. \NS{Anna: broaden this paragraph to be about all of the covariates}
@@ -93,9 +97,9 @@ We will also extend the analysis to provide a more general description of the vi
 
 Domestic abuse doesn't discriminate---well we can estimate this by comparing the 7.7\% for females and 4.4\% for males in the past year with the size of the coefficients.
 
-Regression 2: 
-	no abuse / abuse ~ 	[demographics] age + sex + marital status + earnings + employment + ... other crime dummies
-		health + mental health +
+We can describe who is abused and their demographics in CSEW, CSEW who report, and in WMP.
+
+We can also compare those abused in WMP data with any other reference group in the WMP data. (e.g., burgled) and then use DA-burgled in CSEW vs WMP to back out stuff.
 
 It is common that individuals are more likely to be a victim of crime if they have previously been a victim of crime, and if they have perpetrated crimes. It is also more likely that an individual will commit criminal activities if they have done so before, and if they have previously been the victim of crimes. We will use our datasets to improve our understanding of the temporal patterns of victims and perpetrators, particularly around domestic abuse. The high level of detail in the CSEW allows us to examine the comorbidity of domestic abuse with other crimes during the previous year, and since the age of 16. 
 
@@ -116,6 +120,8 @@ Separation is one of the biggest predictors of abuse resulting in serious injury
 But cross-sectional data present a particular problem for making casual claims: For example, incidents involving drugs or alcohol intoxication: some individuals may end up in an abusive relationship because of an existing dependency, or a dependency may develop as a counterproductive strategy of coping with the abusive relationship. 
 
 The scope of the WMP dataset across time lets us take these questions further, by looking at the order in which events occur and at patterns across many years. We can examine whether a recorded victim of domestic abuse was previously recorded as a victim in other crimes, and if they were subsequently a victim of other criminal behaviours. Identifying risk factors is crucial for police services who want to identify individuals at risk of being future victims, so that they can target interventions and give the best advice possible to reduce an individual's risk. In addition, we can measure the relationship between experiencing domestic abuse, and the likelihood of being recorded as a suspect in other crimes. It is possible that some criminal behaviour is a precursor to experiencing domestic abuse whilst others follow it. 
+
+Should you be identifying the couples most at risk of serious harm from time-invariant properties, or should you be following couples over time and using time-varying properties to spot when to intervene? 
 
 The WMP dataset will further allow us to follow victim-offender pairs over time, and explore how the severity and nature of reported abuse changes over time. 
 In the WMP data we can follow X victim-perp pairs for X years, with each pair appearing X times on average in the data.
@@ -177,6 +183,8 @@ DA or not ~
 Given DA: report or not ~
 
 Fixed effects for region and year
+
+matched in socieoconomic
 
 
 
