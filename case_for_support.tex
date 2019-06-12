@@ -58,55 +58,141 @@ The two datasets have different merits, and combining them allows us to gain a d
 
 
 
-\section{Aims}
+\section*{Research Programme}
 
-\subsection{Who does not report DA?}
+In outlining the research program we specify X core regression analyses, which we will preregister ahead of beigging research on the OSF. These will be complemented with the robustness checks and further exploratory regressions (see, Trendl Football, for an example of this approach). 
 
-The WMP data are cases that have been reported to the police. The CSEW allows an estimate of the prevalence of domestic abuse. The discrepancy between the two datasets allows us to estimate the reporting gap. We first explore the characteristics of offenders and victims. 
+\subsection*{1. Who is abused and who reports abuse?}
 
-While the CSEW provides us with accurate information on the characteristics of victims, it does not contain information on the perpetrators. Combining the two datasets helps us find commonalities between the perpetrators of abuse cases that are 
+Aim: Who perpetrates? Who is a victim? victim/perpetrator characteristics (gender/ethnicity); Find out what kind of cases get reported. Break down the 17\% based on socioeconomic and incident characteristics.
 
-The CSEW allows us to identify the demographic and socio-economic characteristics of victims who are the least likely to report, and therefore should be in the focus of support services. We can validate and contrast these findings with insights from a spatial regression analysis of the crime data, using low-level geographical area information from the census. 
+In our first programme we will answer the question ``Who doesn't report domestic abuse?''. Increasing victim's willingness to report domestic abuse is key in reducing prevalence and preventing escalation that can potentially result in domestic homicide. We will also provide more broad demographic descriptions of the victims and the perpetrators of domestic abuse.  
 
-Core outcomes: A demographic description of victims, a demographic description of perpetrators, and an estimate of the reporting gap, and a demographic description of who does not report domestic abuse.
+We will use the CSEW to understand the demographic and socioeconomic predictors of the decision to report the abuse to the police, and identify specific groups who are less likely to report. We are able to do this because CSEW respondents indicated whether they reported the abuse to the police  and whether the police came to know of the abuse in another way (Question X). 
 
-Aim 1: Who perpetrates? Who becomes a victim? victim/perpetrator characteristics (gender/ethnicity); deprivation and domestic abuse? Find out what kind of cases get reported. Break down the 17\% based on socioeconomic and incident characteristics.
+Regression 1: data --- subset of people who in CSEW responding that they have been abused
 
+	unreported abuse / reported abuse ~ 
+	[demographics] age + sex + marital status + earnings + ... 
+	other crime dummies + ...
+	[information about abuse] level of harm + ...
+	[geomatched stuff] socioeconomic status
+	
 
+Respondents also answered questions indicating the level of harm that they have suffered, which will allow us to estimate how reporting and police awareness depend upon the level of harm. \NS{Anna: broaden this paragraph to be about all of the covariates}
 
-\subsubsection{A description of victims and perpetrators}
+Linear probability model (and logit model?)
 
-victim future behavs, risk factors, intervention possibility
+We can contrast and validate these findings using the WMP dataset. 
+The WMP data are cases that have been reported to the police. The CSEW data allow an estimate of the true underlying prevalence of domestic abuse. The discrepancy between the two datasets allows us to estimate the reporting gap. 
+That is, we can use the WMP dataset to provide a second estimate of the degree of underreporting, indpendent of the CSEW respondent's indications of report. Discrepancy between reporting prevelence estimated from CSEW and the number of cases in the WMP data give important information about the police's recording and categorisation of domestic abuse cases---do police flag all of the cases of domestic abuse?  https://www.bbc.co.uk/news/uk-england-46867657
 
-\textit{A sentence about what earlier investigations have found about particular risk factors, including socio-economic deprivation.} 
+While the CSEW provides us with accurate information on the characteristics of victims, it does not contain information on the perpetrators. Combining the two datasets helps us find commonalities between the perpetrators of abuse cases that are.
 
+We will also extend the analysis to provide a more general description of the victims of abuse by considering 
 
-\subsubsection{Association with other criminal behaviours}
+Domestic abuse doesn't discriminate---well we can estimate this by comparing the 7.7\% for females and 4.4\% for males in the past year with the size of the coefficients.
+
+Regression 2: 
+	no abuse / abuse ~ 	[demographics] age + sex + marital status + earnings + employment + ... other crime dummies
+		health + mental health +
 
 It is common that individuals are more likely to be a victim of crime if they have previously been a victim of crime, and if they have perpetrated crimes. It is also more likely that an individual will commit criminal activities if they have done so before, and if they have previously been the victim of crimes. We will use our datasets to improve our understanding of the temporal patterns of victims and perpetrators, particularly around domestic abuse. The high level of detail in the CSEW allows us to examine the comorbidity of domestic abuse with other crimes during the previous year, and since the age of 16. 
 
+Core outcomes: A demographic description of victims, a demographic description of perpetrators, and an estimate of the reporting gap, and a demographic description of who does not report domestic abuse.
 
-The scope of the WMP dataset across time lets us take these questions further, by looking at the order in which events occur and at patterns across many years. We can examine whether a recorded victim of domestic abuse was previously recorded as a victim in other crimes, and if they were subsequently a victim of other criminal behaviours. Identifying risk factors is crucial for police services who want to identify individuals at risk of being future victims, so that they can target interventions and give the best advice possible to reduce an individual's risk. In addition, we can measure the relationship between experiencing domestic abuse, and the likelihood of being recorded as a suspect in other crimes. It is possible that some criminal behaviour is a precursor to experiencing domestic abuse whilst others follow it. 
+\subsection{The time course of abuse and the predicting serious harm}
 
+Aim:
 
-Increasing victim's willingness to report domestic abuse is key in reducing prevalence and preventing escalation that can potentially result in domestic homicide. We will use the CSEW to understand the demographic and socioeconomic predictors of the decision to report the abuse to the police, and identify specific groups who are less likely to report. We can contrast and validate these findings using the crime dataset.
+The CSEW respondents indicated the level of harm, and we can use the CSEW to estimate the cross-sectional association between the most serious harm and other comorbid factors like alcohol, other crimes, 
 
-
-
-\subsection{Predicting serious harm}
+Regression 3: type of abuse ~ 
+	visit hospital ~ 
+	mental health ~ 
 
 Separation is one of the biggest predictors of abuse resulting in serious injury. \textit{Subject to whether we can get data on the DVPOs (Domestic Violence Protection Order) and DVPNs (Domestic Violence Protection Notice) issued in the West Midlands in the relevant period, we could explore the offender characteristics that predict the likelihood of sustained perpetration after separation, and assess the overall efficacy of these new preventive measures. If not, we can still use info on location + breaches of non-molestation orders?}
 
-For example, incidents involving drugs or alcohol intoxication: some individuals may end up in an abusive relationship because of an existing dependency, or a dependency may develop as a counterproductive strategy of coping with the abusive relationship. 
+But cross-sectional data present a particular problem for making casual claims: For example, incidents involving drugs or alcohol intoxication: some individuals may end up in an abusive relationship because of an existing dependency, or a dependency may develop as a counterproductive strategy of coping with the abusive relationship. 
 
-The crime dataset will further allow us to follow victim-offender pairs over time, and explore how the severity and nature of reported abuse changes over time. We will also be able to identify high-risk days of the year (e.g., birthdays, Christmas, Halloween) by the characteristics of the victim-offender pair and the pattern and duration of abuse. Insights from these analyses can inform decisions about the optimal timing and target audience for domestic abuse awareness campaigns. 
+The scope of the WMP dataset across time lets us take these questions further, by looking at the order in which events occur and at patterns across many years. We can examine whether a recorded victim of domestic abuse was previously recorded as a victim in other crimes, and if they were subsequently a victim of other criminal behaviours. Identifying risk factors is crucial for police services who want to identify individuals at risk of being future victims, so that they can target interventions and give the best advice possible to reduce an individual's risk. In addition, we can measure the relationship between experiencing domestic abuse, and the likelihood of being recorded as a suspect in other crimes. It is possible that some criminal behaviour is a precursor to experiencing domestic abuse whilst others follow it. 
+
+The WMP dataset will further allow us to follow victim-offender pairs over time, and explore how the severity and nature of reported abuse changes over time. 
+In the WMP data we can follow X victim-perp pairs for X years, with each pair appearing X times on average in the data.
+
+We will also be able to identify high-risk days of the year (e.g., birthdays, Christmas, Halloween) by the characteristics of the victim-offender pair and the pattern and duration of abuse. Insights from these analyses can inform decisions about the optimal timing and target audience for domestic abuse awareness campaigns. 
+
+Regression 4: offense classification[proxy for harm] ~ .
+	type of abuse ~ .
+
+Future victim behaviours. Future perpetrator behaviours
+
+serious event at t ~ stuff at t-1  + perpetrator previous crimes
+ and 	a model with pair fixed effects
+
+Murders are very rare, so we are adopting a ``near miss'' airline / nuclear industry strategy of predicting the more prevalent but less serious incidents. 
+
+Say pair fixed effects control for all non-time varying characteristics. With and without pair fixed effects let's use see how much state vs trait matters for prediction. 
+
+
+
 
 \subsection{Collateral damage}
+
+Aim:
+
+CSEW regression: child gang membership ~ any domestic abuse or reported DA [2x2 table of abuse/no abuse by gang / no gang]
+Also estimate, given gang membership what fraction are DA---which links ot WMP analysis below
+
 It also contains information about  multiple members of the household. This allows us to examine whether young individuals living in a household with a victim of domestic abuse are more likely to be victims or perpetrators of other types of crime. By using other questions in the CSEW, we can also measure whether these children are more likely to perpetrate crimes, and to be involved in gang related activities.
  
  explore the lasting effect of domestic abuse on the victims and their children (do we see kids having behavioural problems? No control group unfortunately)- CSEW question about gang membership - are those who report having a child gang member more likely to be victims of domestic abuse? Following people over time (Dynamic topic modelling for victims)- what’s the temporal order? 
 
+Match on name, location, and date of birth in WMP data to see effect on children
+
+WMP regression:
+
+take every juvinile in a gang and try to match all to domestic abuse cases----estimates of what fraction of gang members have co-morbid domestic abuse
+
+What fraction of reported child abuse has comorbid DA; what fraction of DA has comorbid child abuse
+
+Using school census we can go futher and estimate frequencies in a 2x2 child abuse  by domestic abuse table---providing we can match children to mothers.
+
+
+
+
+
 \subsection{Environmental factors}
+
+
+Aim:
+
+CSEW analysis
+
+Unit of analysis is large geographical area in a year 
+Time span 2005-
+
+DA or not ~
+
+Given DA: report or not ~
+
+Fixed effects for region and year
+
+
+
+WMP analysis
+
+Unit of analysis is LSOA (MSOA?) per month or per quarter
+Time span - 2010-2020
+
+Number of DA cases ~ 
+
+The CSEW allows us to identify the demographic and socio-economic characteristics of victims who are the least likely to report, and therefore should be in the focus of support services. We can validate and contrast these findings with insights from a spatial regression analysis of the crime data, using low-level geographical area information from the census. 
+
+Extend regression model X to include region fixed effects?
+
+
+\textit{A sentence about what earlier investigations have found about particular risk factors, including socio-economic deprivation.} 
 
 Australia study on domestic abuse and proximity to fixed-odds betting terminals, and the one on offlicences.
 
@@ -121,7 +207,7 @@ neighbourhood characteristics (deprivation), fixed odds betting terminals, alcoh
 
 food bank dependence? data on housing e.g. evictions? homelessness.
 
-
+Mention we can construct some of these variables by access to "a very large UK bank" which whom we have a data sharing agreement. We cna build them from the row-per-transactino data for spending on current account and credit cards.
 
 \newpage
 
