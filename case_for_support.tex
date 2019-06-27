@@ -12,6 +12,15 @@
 \usepackage{xcolor}
 \usepackage[center]{caption}
 \usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\usepackage{threeparttable}
+%\newcolumntype{L}{>{\centering\arraybackslash}m{3cm}}
+
 
 \usepackage{apacite} 
 %\usepackage{setspace}
@@ -60,44 +69,71 @@ The two datasets have different merits, and combining them allows us to gain a d
 
 \section*{Research Programme}
 
-In outlining the research program we specify X core regression analyses, which we will preregister on OSF ahead of beginning research. These will be complemented with the robustness checks and further exploratory regressions (see, Trendl Football, for an example of this approach). 
+Our research programme involves four research projects in the broader topic of domestic abuse. In outlining each of these research projects, for the sake of clarity, we will specify a set of core regression analyses we plan to conduct. We will preregister all of our analysis plans on the Open Science Framework (OSF) ahead of beginning research. We aim to complement all analyses with robustness checks and further exploratory regressions (see, \textit{Trendl Football}, for an example of this approach).  
 
-\subsection*{1. Understanding domestic abuse: survivor characteristics, extent of domestic abuse and police mis-recording}
+\subsection*{1. Understanding domestic abuse: survivor characteristics and police mis-recording}
 
  \textcolor{red}{\textit{Short intro about aims, highlighting added value.}}
-In our first research project, we will be investigating three main research questions. First, we will use the CSEW dataset to identify the demographic and socio-economic predictors of domestic abuse victimisation, and validate the CSEW estimates using the WMP data. Exploring the risk factors in domestic abuse victimisation is key in designing effectively targeted policy measures. 
+In our first research project, we will first use the CSEW to investigate the demographic and socio-economic characteristics of survivors of domestic abuse. Exploring the risk factors in domestic abuse victimisation is key in designing effectively targeted policy measures. We will also use the WMP data to explore the extent of police mis-recording of domestic abuse. Increasing victim's trust in the police through improving law enforcement response to reported incidents is key in encouraging victims to report domestic abuse and prevent further harm.
 
-Second, we will estimate the true extent of domestic abuse victimisation. Given the multifaceted nature of domestic abuse, and the pervasive problem of underreporting, it is very hard to reliably estimate the prevalence of domestic abuse. We wish to do so by combining the strengths of the two datasets (that is, the CSEW provides a more reliable measure of the true rate of victimisation across different offence types, while the WMP provides unique information on whether various types of offences were domestic abuse-related). Estimating the true prevalence of domestic abuse across various types of criminal offences will help us to obtain a better estimate of the societal cost associated with domestic abuse.
+%Second, we will estimate the true extent of domestic abuse victimisation. Given the multifaceted nature of domestic abuse, and the pervasive problem of underreporting, it is very hard to reliably estimate the prevalence of domestic abuse. We wish to do so by combining the strengths of the two datasets (that is, the CSEW provides a more reliable measure of the true rate of victimisation across different offence types, while the WMP provides unique information on whether various types of offences were domestic abuse-related). Estimating the true prevalence of domestic abuse across various types of criminal offences will help us to obtain a better estimate of the societal cost associated with domestic abuse.
 
 %Exploring the risk factors in domestic abuse victimisation, and the true extent of the problem of underreporting is crucial for designing effective interventions to reduce the risk of escalation that may culminate in domestic homicide. 
 
-Finally, we will estimate the extent of police mis-recording of domestic abuse. Increasing victim's trust in the police through improving law enforcement response to reported incidents is key in encouraging victims to report domestic abuse and prevent further harm. By contrasting estimated levels from reported incidents within the West Midlands from the two datasets, we can identify any reporting gaps between the two sources of data that might arise from police mis-recording.
+%Finally, we will estimate the extent of police mis-recording of domestic abuse. Increasing victim's trust in the police through improving law enforcement response to reported incidents is key in encouraging victims to report domestic abuse and prevent further harm. By contrasting estimated levels from reported incidents within the West Midlands from the two datasets, we can identify any reporting gaps between the two sources of data that might arise from police mis-recording.
 
-\textcolor{red}{\textit{What we know so far}} 
+%\textcolor{red}{\textit{What we know so far}} 
+%
+%7.9\% women and 4.2\% men reported to have experienced domestic abuse in the past year; women between 20-24 are most likely to have experienced domestic abuse; for men, age doesn't represent a significant risk factor;  divorced or separated status are significant risk factors across both sexes; long-term illness or disability is a significant predictor across both sexes; single parent households are the most vulnerable; women in the lowest household income bracket are the most likely to have experienced domestic abuse, the same is true for men but the pattern is less pronounced; only 17\% of people who have experienced domestic abuse in the past year have reported to the police, there is no significant difference in this proportion across genders; bisexual women are twice as more likely to experience DA compared to heterosexual women; mixed/multiple ethnicity; social housing; unemployment.   
+%single mothers and mothers with young children are more at risk
+%
+%Aim 3. \href{https://www.justiceinspectorates.gov.uk/hmicfrs/news/news-feed/little-evidence-of-improvements-in-crime-recording-at-west-midlands-police/}{HMICFRS about West Midlands mis-recording}
 
-Aim 1. \href{https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabusefindingsfromthecrimesurveyforenglandandwales/yearendingmarch2018}{CSEW} : 7.9\% women and 4.2\% men reported to have experienced domestic abuse in the past year; women between 20-24 are most likely to have experienced domestic abuse; for men, age doesn't represent a significant risk factor;  divorced or separated status are significant risk factors across both sexes; long-term illness or disability is a significant predictor across both sexes; single parent households are the most vulnerable; women in the lowest household income bracket are the most likely to have experienced domestic abuse, the same is true for men but the pattern is less pronounced; only 17\% of people who have experienced domestic abuse in the past year have reported to the police, there is no significant difference in this proportion across genders.   
-single mothers and mothers with young children are more at risk
+\textcolor{red}{\textit{Detailed plan}} First, using the CSEW data, we will extend our understanding of the demographic and socio-economic factors predicting domestic abuse victimisation. The CSEW provides and ever broader range of information on the characteristics of the respondent, including age, sex, marital status, number of children, ethnicity, education, employment, income, benefit history, physical and mental health, frequency of going out, house and car ownership, self-reported well-being, and frequency of drug and alcohol use. Previous research has identified a number of risk factors predicting domestic abuse victimisation (being female, young, unemployed, separated or divorced, living in single parent household and earning in the lowest income bracket), based on descriptive statistics derived from the CSEW data. Building on what we know so far, we will explore the relative explanatory power of a broader range of victim characteristics in statistical model, using a logistic regression approach. We are also interested in how the predictive power of victim characteristics vary with the type of abuse suffered (physical abuse, threats, sexual abuse).
 
-Aim 2. The prevalence of DA is usually based on the CSEW, so I think the second analysis can add value.
+ However, given the complex nature of domestic abuse, it is likely that there are important interactions between various victim characteristics in predicting the risk of domestic abuse victimisation (for example, we would expect that not having stable employment is a more significant risk factor of domestic abuse victimisation for those who have young children). To uncover the structure of these interactions (without having to a priori specify them, as is required in a logistic regression model), we will also use a random forest classification algorithm, a machine learning method that has the ability to detect non-linear relationships between variables, allowing us to identify particularly vulnerable subgroups of the population. Insights from both methods will provide us with the first extensive characterisation of the risk factors predicting domestic abuse victimisation in England, using a national-level, large representative sample like the CSEW.
+ 
+ 
+ Police forces in England, and particularly the West Midlands Police, have previously been criticised for mis-recording violent cases of violent crime, including \href{https://www.bbc.co.uk/news/uk-england-468676578}{domestic abuse.} Mis-recording these already heavily underreported crimes decrease victim's trust in the Criminal Justice System and their willingness to report subsequent incidents. \textit{Why don't we use the aggregate number of police-recorded domestic abuse cases for each police force to do this? But if we don't particularly rely on the WMP data is there a point in this?}
 
-Aim 3. \href{https://www.justiceinspectorates.gov.uk/hmicfrs/news/news-feed/little-evidence-of-improvements-in-crime-recording-at-west-midlands-police/}{HMICFRS about West Midlands mis-recording}
+\begin{table}[!htbp]
+\caption{Information on Swiss nuclear power plants}
+  \begin{threeparttable}[t]
+  \centering
+       \begin{tabular}{ L{2.8cm}  C{1.8cm}  C{1.8cm}  C{3.2cm}  C{2.8cm}  C{2cm} }
+    \toprule
+     \textbf{Research question} & \textbf{Dataset}    & \textbf{Unit of analysis} & \textbf{Outcome variables} & \textbf{Explanatory variables} & \textbf{Model} \\
+    \midrule
+    What are the characteristics of domestic abuse victims? & CSEW & Individual (respondent-level) & Domestic abuse victimisation; Victimisation by type (physical, sexual abuse, threats) & e & Logistic regression/random forest \\
+    What is the extent of police mis-recording of domestic abuse in the West Midlands? & CSEW & & & & \\
+%    Beznau II & 23.10.1971 & Pressurised water reactor & 365   & 2031 \\
+%    Mühleberg & 01.07.1971 & Boiling water reactor & 373   & 2019\\
+%    Gösgen & 02.02.1979 & Pressurised water reactor & 1010  & 2039 \\
+%    Leibstadt & 24.05.1984 & Boiling water reactor & 1220  & 2044 \\
+     \bottomrule
+  \end{tabular}
+%     \begin{tablenotes}
+%     \item[1] Assumption: life time of 60 years.
+%     \item[2] Official shut-down.
+%   \end{tablenotes}
+    \end{threeparttable}%
+  \label{tab:addlabel}%
+\end{table}%
 
-\textcolor{red}{\textit{Detailed plan}}
-
-\textbf{Aim 1.} First, using the CSEW data, we will conduct a series of statistical analyses to provide a deeper understanding of the demographic and socio-economic factors predicting domestic abuse victimisation. Using a logistic regression approach, we will explore the factors predicting individual-level domestic abuse victimisation, depending on the type of abuse ever suffered (physical abuse, threats, sexual abuse). The CSEW provides a wealth of information on the characteristics of the respondent, including age, sex, marital status, number of children, ethnicity, education, employment, income, benefit history, physical and mental health, frequency of going out, house and car ownership, self-reported well-being, and frequency of drug and alcohol use. Using this wide range of individual-level information, we will evaluate the importance of each of these variables in predicting the likelihood of domestic abuse victimisation. \textit{Could we also use a e.g. a random forest classification algorithm and look at variable importance? this way we could also look at interactions? does clustering make sense here to explore structure?}  These analyses will represent the first extensive quantitative investigation of the individual-level predictors of domestic abuse victimisation in England, using a national-level, large representative sample like the CSEW. We are particularly interested in the association between experiences of domestic abuse, number of children, and financial resilience, as previous research has suggested that access to resources is an important factor in escaping the cycle of abuse, especially for women with children.
-
-Second, we can validate some of these findings using the WMP data, since the CSEW contains information on whether the survivor reported the domestic abuse to the police. The WMP contains information about the sex and age of victims. We can contrast the sex-age victimisation numbers from the WMP with corresponding population estimates to validate the findings of the CSEW \textit{(we were initially talking about using victims of burglary, but maybe this is better?)}. We can also complement this analysis with data on the offender's sex  and age, to estimate the prevalence of different forms of reported domestic abuse (child to parent violence, parent to child violence, intimate partner violence) and contrast it with estimates based on self-reported data from the CSEW, which distinguishes between family and intimate partner violence.
+%Second, we can validate some of these findings using the WMP data, since the CSEW contains information on whether the survivor reported the domestic abuse to the police. The WMP contains information about the sex and age of victims. We can contrast the sex-age victimisation numbers from the WMP with corresponding population estimates to validate the findings of the CSEW \textit{(we were initially talking about using victims of burglary, but maybe this is better?)}. We can also complement this analysis with data on the offender's sex  and age, to estimate the prevalence of different forms of reported domestic abuse (child to parent violence, parent to child violence, intimate partner violence) and contrast it with estimates based on self-reported data from the CSEW, which distinguishes between family and intimate partner violence.
 
 %As mentioned, domestic abuse is a complex phenomenon that encompasses a number of notifiable criminal offences that are usually repeat incidents in nature (e.g., violence against the person including physical or verbal abuse, sexual offences, criminal damage, stalking and harassment). However, the CSEW mainly focuses on 
 
-\textbf{Aim 2.}  The CSEW is used to estimate the costs of domestic abuse in the UK. While a unique strength of the CSEW is that it provides reliable estimates of the proportion of the population who have been a survivor of a certain crime, it cannot capture the true extent of domestic abuse victimisation for several reasons. First, because it does not collect detailed information on various aspects of repeat domestic abuse victimisation (an inherent characteristic of domestic abuse cases), as it only records the number of incidents involving physical violence perpetrated by household members (and ignores repeated cases of non-physical violence). In addition, survivors who suffer frequent, ongoing abuse are less likely to accurately remember the exact number of incidents. Second, because it only focuses on certain sub-categories of domestic abuse (physical violence, sexual assault, stalking), while ignores others (criminal damage, verbal abuse, financial abuse, burglary). In addition, it does not collect information on whether different offences against the same survivor were perpetrated by the same offender. In contrast, the WMP data allows us to tell if a reported case was domestic abuse related (as the police are required to record this information), regardless of the actual offence committed. In addition, it allows us to identify various incidents with the same victim-offender pair, providing us with reliable data on reported cases of repeat victimisation. We can estimate the co-morbidity of domestic abuse victimisation with other types of criminal victimisation using the CSEW. We can combine this with the estimated likelihood of domestic abuse victimisation by offence type to get a better estimate of the overall extent of domestic abuse victimisation (reported and unreported). \textit{is this silly? then we can maybe estimate what percentage of true victimisation is domestic-abuse related? the £66 billion cost estimate is based on the CSEW}
+
+
+
+%\textbf{Aim 2.}  The CSEW is used to estimate the costs of domestic abuse in the UK. While a unique strength of the CSEW is that it provides reliable estimates of the proportion of the population who have been a survivor of a certain crime, it cannot capture the true extent of domestic abuse victimisation for several reasons. First, because it does not collect detailed information on various aspects of repeat domestic abuse victimisation (an inherent characteristic of domestic abuse cases), as it only records the number of incidents involving physical violence perpetrated by household members (and ignores repeated cases of non-physical violence). In addition, survivors who suffer frequent, ongoing abuse are less likely to accurately remember the exact number of incidents. Second, because it only focuses on certain sub-categories of domestic abuse (physical violence, sexual assault, stalking), while ignores others (criminal damage, verbal abuse, financial abuse, burglary). In addition, it does not collect information on whether different offences against the same survivor were perpetrated by the same offender. In contrast, the WMP data allows us to tell if a reported case was domestic abuse related (as the police are required to record this information), regardless of the actual offence committed. In addition, it allows us to identify various incidents with the same victim-offender pair, providing us with reliable data on reported cases of repeat victimisation. We can estimate the co-morbidity of domestic abuse victimisation with other types of criminal victimisation using the CSEW. We can combine this with the estimated likelihood of domestic abuse victimisation by offence type to get a better estimate of the overall extent of domestic abuse victimisation (reported and unreported). \textit{is this silly? then we can maybe estimate what percentage of true victimisation is domestic-abuse related? the £66 billion cost estimate is based on the CSEW}
 
 
 %It is common that individuals are more likely to be a survivor of crime if they have previously been a survivor of crime, and if they have perpetrated crimes. It is also more likely that an individual will commit criminal activities if they have done so before, and if they have previously been the survivor of crimes. We will use our datasets to improve our understanding of the temporal patterns of victims and perpetrators, particularly around domestic abuse. The high level of detail in the CSEW allows us to examine the comorbidity of domestic abuse with other crimes during the previous year, and since the age of 16. 
 
 
-
-\textbf{Aim 3.} Police forces in England, and particularly the West Midlands Police, have previously been criticised for mis-recording violent cases of violent crime, including \href{https://www.bbc.co.uk/news/uk-england-468676578}{domestic abuse.} Mis-recording these already heavily underreported crimes decrease victim's trust in the Criminal Justice System and their willingness to report subsequent incidents. By contrasting extrapolated estimates from the CSEW (which is a representative sample) with WMP data on the recorded number of reported cases, we can estimate the true extent of the mis-recording of domestic abuse cases by the WMP. Given the repeated cross-sectional nature of the CSEW, and the longitudinal nature of the WMP, we can quantify the proportion of mis-recorded incidents over time. We can complement this investigation with analysing the self-reported outcome of incidents that have been reported to the police from the CSEW, and the survivor's perception of the CJS.
+%By contrasting extrapolated estimates from the CSEW (which is a representative sample) with WMP data on the recorded number of reported cases, we can estimate the true extent of the mis-recording of domestic abuse cases by the WMP. Given the repeated cross-sectional nature of the CSEW, and the longitudinal nature of the WMP, we can quantify the proportion of mis-recorded incidents over time. We can complement this investigation with analysing the self-reported outcome of incidents that have been reported to the police from the CSEW, and the survivor's perception of the CJS.
 
 
 
@@ -139,7 +175,8 @@ Second, we can validate some of these findings using the WMP data, since the CSE
 
 
 \textcolor{red}{\textit{Core outcomes}} 
-A deeper understanding of the socio-economic predictors of domestic abuse victimisation. The first estimation of the true extent of domestic abuse-related victimisation across all offence types. An estimation of the extent of police (WMP) mis-recording of domestic abuse over time. 
+
+The first extensive investigation of the demographic and socio-economic predictors of domestic abuse victimisation.
 
 \newpage
 
@@ -170,7 +207,29 @@ decision to report: serious violence; friends, family, neighbours notice; happen
 
 Second, we will use the WMP 
 
-
+\begin{table}[!htbp]
+\caption{Information on Swiss nuclear power plants}
+  \begin{threeparttable}[t]
+  \centering
+       \begin{tabular}{ L{2.8cm}  C{1.8cm}  C{1.8cm}  C{3.2cm}  C{2.8cm}  C{2cm} }
+    \toprule
+     \textbf{Research question} & \textbf{Dataset}    & \textbf{Unit of analysis} & \textbf{Outcome variables} & \textbf{Explanatory variables} & \textbf{Model} \\
+    \midrule
+    What are the predictors of serious harm? & CSEW & Individual (respondent-level) & Injury suffered from domestic abuse victimisation & e & Logistic regression \\
+    What are the predictors of serious harm? & WMP & Perpetrator-victim pairs & Violent offences resulting in injury & Age/sex of perpetrator and victim, previous recorded offences of perpetrator &  \\
+%    Beznau II & 23.10.1971 & Pressurised water reactor & 365   & 2031 \\
+%    Mühleberg & 01.07.1971 & Boiling water reactor & 373   & 2019\\
+%    Gösgen & 02.02.1979 & Pressurised water reactor & 1010  & 2039 \\
+%    Leibstadt & 24.05.1984 & Boiling water reactor & 1220  & 2044 \\
+     \bottomrule
+  \end{tabular}
+%     \begin{tablenotes}
+%     \item[1] Assumption: life time of 60 years.
+%     \item[2] Official shut-down.
+%   \end{tablenotes}
+    \end{threeparttable}%
+  \label{tab:addlabel}%
+\end{table}%
 
 We can predict incidents with serious harm, using the type of offence occurred previously, criminal history of the offender. number of days elapsed. This will allow us to identify and commonalities in the pattern of domestic abuse cases that lead to escalation in the form of serious harm. We can also identify and characterise high-risk perpetrators who breach court orders designed to protect the victims from further harms.
 
