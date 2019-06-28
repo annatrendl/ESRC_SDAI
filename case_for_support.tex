@@ -69,12 +69,12 @@ The two datasets have different merits, and combining them allows us to gain a d
 
 \section*{Research Programme}
 
-Our research programme involves four research projects in the broader topic of domestic abuse. In outlining each of these research projects, for the sake of clarity, we will specify a set of core regression analyses we plan to conduct. We will preregister all of our analysis plans on the Open Science Framework (OSF) ahead of beginning research. We aim to complement all analyses with robustness checks and further exploratory regressions (see, \textit{Trendl Football}, for an example of this approach).  
+Our research programme involves four research projects exploring different aspects of domestic abuse. In outlining each of these research projects, for the sake of clarity, we will specify a set of core regression analyses we plan to conduct. We will preregister all of our analysis plans using the Open Science Framework (OSF) ahead of beginning research. We will also aim to complement all analyses with robustness checks and further exploratory regressions as the data allows (see, \textit{Trendl Football}, for an example of this approach).  
 
 \subsection*{1. Understanding domestic abuse: survivor characteristics and police mis-recording}
 
  \textcolor{red}{\textit{Short intro about aims, highlighting added value.}}
-In our first research project, we will first use the CSEW to investigate the demographic and socio-economic characteristics of survivors of domestic abuse. Exploring the risk factors in domestic abuse victimisation is key in designing effectively targeted policy measures. We will also use the WMP data to explore the extent of police mis-recording of domestic abuse. Increasing victim's trust in the police through improving law enforcement response to reported incidents is key in encouraging victims to report domestic abuse and prevent further harm.
+In this research project, we will first use the CSEW to investigate the demographic and socio-economic characteristics of survivors of domestic abuse. Exploring the risk factors in domestic abuse victimisation is key in designing effectively targeted policy measures. We will also use the WMP data to explore the extent of police mis-recording of domestic abuse. Increasing victim's trust in the police through improving law enforcement response to reported incidents is key in encouraging victims to report domestic abuse and prevent further harm.
 
 %Second, we will estimate the true extent of domestic abuse victimisation. Given the multifaceted nature of domestic abuse, and the pervasive problem of underreporting, it is very hard to reliably estimate the prevalence of domestic abuse. We wish to do so by combining the strengths of the two datasets (that is, the CSEW provides a more reliable measure of the true rate of victimisation across different offence types, while the WMP provides unique information on whether various types of offences were domestic abuse-related). Estimating the true prevalence of domestic abuse across various types of criminal offences will help us to obtain a better estimate of the societal cost associated with domestic abuse.
 
@@ -89,23 +89,24 @@ In our first research project, we will first use the CSEW to investigate the dem
 %
 %Aim 3. \href{https://www.justiceinspectorates.gov.uk/hmicfrs/news/news-feed/little-evidence-of-improvements-in-crime-recording-at-west-midlands-police/}{HMICFRS about West Midlands mis-recording}
 
-\textcolor{red}{\textit{Detailed plan}} First, using the CSEW data, we will extend our understanding of the demographic and socio-economic factors predicting domestic abuse victimisation. The CSEW provides and ever broader range of information on the characteristics of the respondent, including age, sex, marital status, number of children, ethnicity, education, employment, income, benefit history, physical and mental health, frequency of going out, house and car ownership, self-reported well-being, and frequency of drug and alcohol use. Previous research has identified a number of risk factors predicting domestic abuse victimisation (being female, young, unemployed, separated or divorced, living in single parent household and earning in the lowest income bracket), based on descriptive statistics derived from the CSEW data. Building on what we know so far, we will explore the relative explanatory power of a broader range of victim characteristics in statistical model, using a logistic regression approach. We are also interested in how the predictive power of victim characteristics vary with the type of abuse suffered (physical abuse, threats, sexual abuse).
+\textcolor{red}{\textit{Detailed plan}} First, using the CSEW data, we will extend our understanding of the demographic and socio-economic factors predicting domestic abuse victimisation. The CSEW provides a broad range of information on the characteristics of the respondent, including age, sex, marital status, number of children, ethnicity, education, employment, income, benefit history, physical and mental health, frequency of going out, house and car ownership, self-reported well-being, and frequency of drug and alcohol use. Previous research has identified a number of risk factors predicting domestic abuse victimisation (being female, young, unemployed, separated or divorced, living in single parent household and earning in the lowest income bracket), based on descriptive statistics derived from the CSEW data. Building on what we know so far, we will explore the predictive power of a broader range of victim characteristics in statistical model, using a logistic regression approach. Investigating the explanatory power of these characteristics within one statistical model will provide us with a deeper understanding of the importance of these factors in predicting domestic abuse victimisation, compared to a purely descriptive statistics approach. We are also interested in how the predictive power of victim characteristics vary with the type of abuse suffered (physical abuse, threats, sexual abuse).
 
  However, given the complex nature of domestic abuse, it is likely that there are important interactions between various victim characteristics in predicting the risk of domestic abuse victimisation (for example, we would expect that not having stable employment is a more significant risk factor of domestic abuse victimisation for those who have young children). To uncover the structure of these interactions (without having to a priori specify them, as is required in a logistic regression model), we will also use a random forest classification algorithm, a machine learning method that has the ability to detect non-linear relationships between variables, allowing us to identify particularly vulnerable subgroups of the population. Insights from both methods will provide us with the first extensive characterisation of the risk factors predicting domestic abuse victimisation in England, using a national-level, large representative sample like the CSEW.
  
  
- Police forces in England, and particularly the West Midlands Police, have previously been criticised for mis-recording violent cases of violent crime, including \href{https://www.bbc.co.uk/news/uk-england-468676578}{domestic abuse.} Mis-recording these already heavily underreported crimes decrease victim's trust in the Criminal Justice System and their willingness to report subsequent incidents. \textit{Why don't we use the aggregate number of police-recorded domestic abuse cases for each police force to do this? But if we don't particularly rely on the WMP data is there a point in this?}
+ Police forces in England, and particularly the West Midlands Police, have previously been criticised for mis-recording violent cases of violent crime, including \href{https://www.bbc.co.uk/news/uk-england-468676578}{domestic abuse.} Mis-recording these already heavily underreported crimes decrease victim's trust in the Criminal Justice System and their willingness to report subsequent incidents. \textit{Why don't we use the aggregate number of \href{https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/datasets/domesticabuseinenglandandwalesappendixtables}{police-recorded domestic abuse cases for each police force} to do this? But if we don't particularly rely on the WMP data is there a point in this? They use \href{https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/domesticabuseinenglandandwales/yearendingmarch2018}{CSEW and police data} in this report, but they don't seem to compare the two}
 
 \begin{table}[!htbp]
-\caption{Information on Swiss nuclear power plants}
+\caption{Understanding domestic abuse: survivor characteristics and police mis-recording, regressions}
   \begin{threeparttable}[t]
   \centering
        \begin{tabular}{ L{2.8cm}  C{1.8cm}  C{1.8cm}  C{3.2cm}  C{2.8cm}  C{2cm} }
     \toprule
      \textbf{Research question} & \textbf{Dataset}    & \textbf{Unit of analysis} & \textbf{Outcome variables} & \textbf{Explanatory variables} & \textbf{Model} \\
     \midrule
-    What are the characteristics of domestic abuse victims? & CSEW & Individual (respondent-level) & Domestic abuse victimisation; Victimisation by type (physical, sexual abuse, threats) & e & Logistic regression/random forest \\
-    What is the extent of police mis-recording of domestic abuse in the West Midlands? & CSEW & & & & \\
+    What are the characteristics of domestic abuse victims? & CSEW & Individual (respondent-level) & Domestic abuse victimisation; Victimisation by type (physical, sexual abuse, threats) & demographic and socio-economic characteristics & Logistic regression/random forest \\
+        \midrule
+    What is the extent of police mis-recording of domestic abuse? & ONS data & & & & \\
 %    Beznau II & 23.10.1971 & Pressurised water reactor & 365   & 2031 \\
 %    Mühleberg & 01.07.1971 & Boiling water reactor & 373   & 2019\\
 %    Gösgen & 02.02.1979 & Pressurised water reactor & 1010  & 2039 \\
@@ -183,12 +184,7 @@ The first extensive investigation of the demographic and socio-economic predicto
 
 \subsection*{2. Predicting serious harm and understanding the decision to report}
 
- \textcolor{red}{\textit{Short intro about aims, highlighting added value.}} In this project, we are interested in exploring the risk factors of serious harm and the factors determining the decision to report the abuse. First,...
- Second,...
- does the level of harm depend on the length of time spent in the relationship, separation, 
-
-Understanding what affects the decision to report is particularly important since underreporting represents the biggest obstacle to effectively tackling domestic abuse.
- Insights from these analyses can inform decisions about the optimal timing and target audience for domestic abuse awareness campaigns.
+ \textcolor{red}{\textit{Short intro about aims, highlighting added value.}} In this project, we will explore the victim and offender characteristics that are predict serious harm and the factors determining the decision to report the abuse. Identifying high-risk victim-offender pairs is key in preventing serious harm. Understanding what affects the decision to report is particularly important since underreporting represents the biggest obstacle to effectively tackling domestic abuse. Insights from these analyses can inform decisions about the optimal timing and target audience for domestic abuse awareness campaigns.
 %
 %\textcolor{red}{\textit{What we know so far}}
 %
@@ -198,24 +194,24 @@ Understanding what affects the decision to report is particularly important sinc
 %
 %decision to report: serious violence; friends, family, neighbours notice; happens in public, in front of people  
 
-\textcolor{red}{\textit{Detailed plan}} First, we will use the CSEW, and a multinomial logistic approach to understand how the level of harm suffered (threats, minor or serious injury) depends on the individual-level characteristics of the survivor. We will know the level of harm suffered, because the CSEW asks whether the respondent needed to see a doctor, nurse or other health worker, or needed to take time off work because of the abuse.  Drawing on the results of our investigation on the risk factors predicting domestic abuse, we will select 3-4 victim characteristics that have the highest explanatory power to understand how these predict serious harm. We are especially interested in the co-morbidity of separation and divorce wand serious physical harm, as evidence suggests that the survivor's decision to end the relationship is a significant risk factor predicting serious harm. 
+\textcolor{red}{\textit{Detailed plan}} Drawing on the relative strengths of the CSEW and the WMP datasets, we will explore the relative importance of the risk factors predicting serious harm. Previous studies investigating this question mostly relied on police data and focused on identifying high-risk offenders. We will complement and extend this research by simultaneously considering the victim characteristics that are predictive of suffering serious injuries using the CSEW. Specifically, using a multinomial logistic approach, we will explore to which financial independence and resilience (income bracket), mental health (self-reported well-being), drug and alcohol dependence (frequency of usage), social isolation (not going out, living alone or with the perpetrator), recent separation, and feeling frightened (increased home security, reporting feeling scared) are predictors of various levels of harm (threats, minor or serious injury) \textit{causality issue?}. We will know the level of harm suffered, because the CSEW asks whether the respondent needed to see a doctor, nurse or other health worker, or needed to take time off work because of the abuse. 
 
-In the WMP data, we have access to detailed information on the characteristics of each reported domestic abuse incident, such as whether the victim lives with the perpetrator, or whether they are or have been in an intimate partner relationship. 
+Using the WMP data, we will also explore the risk factors associated with the perpetrator, using each perpetrator-victim pair as a unit of analysis. The strength of the WMP data is that it has a temporal dimension, and we can follow the same perpetrator-victim pair over time. Our detailed crime dataset will allow to investigate the extent to which previous recorded self-harm and suicide attempts, previous violent and drug offences, breaching court orders and separation will predict causing serious harm. From the detailed description of the incident, we will know if the perpetrator and the victim live together. We will explore this question using a multinomial logistic regression analysis with perpetrator-victim fixed effects.  
 
 %Second, using the WMP data, we can analyse the temporal patterns of reported domestic abuse incidents by following  23\% of the 182,646 victim-offender pairs over an eight-year-long period. 
 
-Second, we will use the WMP 
 
 \begin{table}[!htbp]
-\caption{Information on Swiss nuclear power plants}
+\caption{Predicting serious harm and understanding the decision to report, regressions}
   \begin{threeparttable}[t]
   \centering
        \begin{tabular}{ L{2.8cm}  C{1.8cm}  C{1.8cm}  C{3.2cm}  C{2.8cm}  C{2cm} }
     \toprule
      \textbf{Research question} & \textbf{Dataset}    & \textbf{Unit of analysis} & \textbf{Outcome variables} & \textbf{Explanatory variables} & \textbf{Model} \\
     \midrule
-    What are the predictors of serious harm? & CSEW & Individual (respondent-level) & Injury suffered from domestic abuse victimisation & e & Logistic regression \\
-    What are the predictors of serious harm? & WMP & Perpetrator-victim pairs & Violent offences resulting in injury & Age/sex of perpetrator and victim, previous recorded offences of perpetrator &  \\
+    What victim characteristics predict serious harm? & CSEW & Individual (respondent-level) & Level of harm resulting from domestic abuse victimisation (no physical harm, minor, serious) & financial resources, mental health, dependence, social isolation, separation, feeling scared & Multinomial logistic regression \\
+        \midrule
+     What perpetrator characteristics predict serious harm? & WMP & Perpetrator-victim pairs & Violent offences resulting in injury & previous self-harm and suicide attempts, previous violent and drug offences, breaching court orders, separation & Multinomial logistic regression with perpetrator-victim fixed effects \\
 %    Beznau II & 23.10.1971 & Pressurised water reactor & 365   & 2031 \\
 %    Mühleberg & 01.07.1971 & Boiling water reactor & 373   & 2019\\
 %    Gösgen & 02.02.1979 & Pressurised water reactor & 1010  & 2039 \\
@@ -230,15 +226,11 @@ Second, we will use the WMP
   \label{tab:addlabel}%
 \end{table}%
 
-We can predict incidents with serious harm, using the type of offence occurred previously, criminal history of the offender. number of days elapsed. This will allow us to identify and commonalities in the pattern of domestic abuse cases that lead to escalation in the form of serious harm. We can also identify and characterise high-risk perpetrators who breach court orders designed to protect the victims from further harms.
 
 %We can examine whether a recorded survivor of domestic abuse was previously recorded as a survivor in other crimes, and if they were subsequently a survivor of other criminal behaviours. Identifying risk factors is crucial for police services who want to identify individuals at risk of being future victims, so that they can target interventions and give the best advice possible to reduce an individual's risk. In addition, we can measure the relationship between experiencing domestic abuse, and the likelihood of being recorded as a suspect in other crimes. It is possible that some criminal behaviour is a precursor to experiencing domestic abuse whilst others follow it. 
 
 
-Serious harm can be the cause or the consequence of the decision to report.
-
-
-\textbf{Aim 2.} First, we will use the CSEW, and a logistic regression approach to understand how the decision to report to the police (or the decision to seek any form of external help) depends on the individual-level characteristics of the survivor (especially focusing on mental and physical health, financial independence and whether the survivor has children), and the severity and type of the abuse suffered. We are also interested in the link between the decision to report and survivor's general trust in the CJS.
+We will also use both datasets to explore the predictors of the decision to report the abuse. Using the CSEW, we will investigate the factors predicting the decision to report using a logistic regression approach to understand how the decision to report to the police (or the decision to seek any form of external help) depends on the individual-level, time-invariant characteristics of the survivor, controlling for the severity and type of the abuse suffered. We are especially interested in the effect of trust in the Criminal Justice System (CJS), social ties (living with family, going out, length of living in the area, member of Neighbourhood Watch), financial independence (own income, employment status, car ownership), number of children, mental health, and alcohol and drug dependency.
 
 Second, we can use the WMP data to investigate drivers of the decision to report. For this analysis, we will focus on the subset of incidents (6\% of all incidents), where the victim reported a long history of abuse (at least 3 days between first and last reported occurrence). We are interested in whether these reports are more likely to occur after certain days of the year (e.g., birthday of the victim or perpetrator, Christmas, Halloween, Easter, etc.), potentially reflecting cases where the abuse has suddenly escalated, or became known to outsiders.
 
