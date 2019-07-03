@@ -12,6 +12,7 @@
 \usepackage{xcolor}
 \usepackage[center]{caption}
 \usepackage{hyperref}
+\usepackage{placeins}
 \usepackage{booktabs}
 \usepackage{array}
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -109,7 +110,7 @@ In this research project, we will first use the CSEW to investigate the demograp
 % Police forces in England, and particularly the West Midlands Police, have previously been criticised for mis-recording violent cases of violent crime, including \href{https://www.bbc.co.uk/news/uk-england-468676578}{domestic abuse.} Mis-recording these already heavily underreported crimes decrease victim's trust in the Criminal Justice System and their willingness to report subsequent incidents. \textit{Why don't we use the aggregate number of \href{https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/datasets/domesticabuseinenglandandwalesappendixtables}{police-recorded domestic abuse cases for each police force} to do this? But if we don't particularly rely on the WMP data is there a point in this? They use \href{https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/domesticabuseinenglandandwales/yearendingmarch2018}{CSEW and police data} in this report, but they don't seem to compare the two}
 
 \begin{table}[!htbp]
-\caption{Understanding domestic abuse: survivor characteristics and police mis-recording, regressions}
+\caption{Understanding domestic abuse: survivor characteristics and police mis-recording, analysis plan}
   \begin{threeparttable}[t]
   \centering
        \begin{tabular}{ L{2.8cm}  C{1.8cm}  C{1.8cm}  C{3.2cm}  C{2.8cm}  C{2cm} }
@@ -134,7 +135,7 @@ In this research project, we will first use the CSEW to investigate the demograp
     \end{threeparttable}%
   \label{tab:addlabel}%
 \end{table}%
-
+\FloatBarrier
 %Second, we can validate some of these findings using the WMP data, since the CSEW contains information on whether the survivor reported the domestic abuse to the police. The WMP contains information about the sex and age of victims. We can contrast the sex-age victimisation numbers from the WMP with corresponding population estimates to validate the findings of the CSEW \textit{(we were initially talking about using victims of burglary, but maybe this is better?)}. We can also complement this analysis with data on the offender's sex  and age, to estimate the prevalence of different forms of reported domestic abuse (child to parent violence, parent to child violence, intimate partner violence) and contrast it with estimates based on self-reported data from the CSEW, which distinguishes between family and intimate partner violence.
 
 %As mentioned, domestic abuse is a complex phenomenon that encompasses a number of notifiable criminal offences that are usually repeat incidents in nature (e.g., violence against the person including physical or verbal abuse, sexual offences, criminal damage, stalking and harassment). However, the CSEW mainly focuses on 
@@ -193,7 +194,7 @@ In this research project, we will first use the CSEW to investigate the demograp
 
 The first extensive investigation of the demographic and socio-economic predictors of domestic abuse victimisation. An exploration of how police response to reported cases, victim satisfaction with the police and perception of security after reporting domestic abuse depend on victim characteristics.
 
-
+\newpage
 
 
 \subsection*{2. Predicting serious harm and understanding the decision to report}
@@ -208,7 +209,7 @@ The first extensive investigation of the demographic and socio-economic predicto
 %
 %decision to report: serious violence; friends, family, neighbours notice; happens in public, in front of people  
 
-\textcolor{red}{\textit{Detailed plan}} Drawing on the relative strengths of the CSEW and the WMP datasets, we will explore the relative importance of the risk factors predicting serious harm. Previous studies investigating this question mostly relied on police data and focused on identifying high-risk offenders \cite{thornton}. We will complement and extend this research by simultaneously considering the victim characteristics that are predictive of suffering serious injuries using the CSEW. Specifically, using a multinomial logistic approach, we will explore the extent to which financial independence and resilience (income bracket), mental health (self-reported well-being), drug and alcohol dependence (frequency of usage), social isolation (self-reported frequency of going out, living alone or with the perpetrator, family disputes), recent separation, and feeling frightened (increased home security, reporting feeling scared) are predictors of various levels of harm (threats, minor or serious injury) \textit{causality issue?}. We will know the level of harm suffered, because the CSEW asks whether the respondent needed to see a doctor, nurse or other health worker, or needed to take time off work because of the abuse. Given the cross-sectional nature of the CSEW data, this analysis will be exploratory rather than causal.
+\textcolor{red}{\textit{Detailed plan}} Drawing on the relative strengths of the CSEW and the WMP datasets, we will explore the relative importance of the risk factors predicting serious harm. Previous studies investigating this question mostly relied on police data and focused on identifying high-risk offenders \cite{thornton}. We will complement and extend this research by simultaneously considering the victim characteristics that are predictive of suffering serious injuries using the CSEW. Specifically, using a multinomial logistic approach, we will explore the extent to which financial independence and resilience (income bracket), mental health (self-reported well-being), drug and alcohol dependence (frequency of usage), social isolation (self-reported frequency of going out, living alone or with the perpetrator, family disputes), recent separation, and feeling frightened (increased home security, reporting feeling scared) are predictors of various levels of harm (threats, minor or serious injury). We will know the level of harm suffered, because the CSEW asks whether the respondent needed to see a doctor, nurse or other health worker, or needed to take time off work because of the abuse. Given the cross-sectional nature of the CSEW data, this analysis will be exploratory rather than causal.
 
 Using the WMP data, we will also explore the risk factors associated with the perpetrator, using each perpetrator-victim pair as a unit of analysis. The strength of the WMP data is that it has a temporal dimension, and we can follow the same perpetrator-victim pair over time. Our detailed crime dataset will allow to investigate the extent to which the perpetrator's previous recorded self-harm and suicide attempts, previous violent and drug offences, breaches of court orders and separation from the victim will predict causing serious harm. From the detailed description of the incident, we will know if the perpetrator and the victim live together. We will explore this question using a multinomial logistic regression analysis with perpetrator-victim fixed effects, where we will use previously known information about the perpetrator to predict serious harm. Using a fixed-effects regression approach will allow us to disentangle the relative importance of our explanatory variables and perpetrator-victim specific factors in predicting serious harm.  
 
@@ -216,7 +217,7 @@ Using the WMP data, we will also explore the risk factors associated with the pe
 
 
 \begin{table}[!htbp]
-\caption{Predicting serious harm and understanding the decision to report, regressions}
+\caption{Predicting serious harm and understanding the decision to report, analysis plan}
   \begin{threeparttable}[t]
   \centering
        \begin{tabular}{ L{2.8cm}  C{1.8cm}  C{1.8cm}  C{3.2cm}  C{2.8cm}  C{2cm} }
@@ -249,7 +250,7 @@ We will also use both datasets to explore the predictors of the decision to repo
 A deeper understanding of the victim and perpetrator characteristics that predict serious harm, and the time-invariant and time-varying factors affecting the decision to report the abuse to the police. 
 
 %Aim:
-
+\FloatBarrier
 %The CSEW respondents indicated the level of harm, and we can use the CSEW to estimate the cross-sectional association between the most serious harm and other comorbid factors like alcohol, other crimes, 
 
 %Regression 3: type of abuse ~ 
@@ -295,18 +296,17 @@ Domestic abuse has long-lasting adverse effects on victims and those close to th
 %\href{https://www.psychologytoday.com/gb/blog/progress-notes/201902/alarming-effects-childrens-exposure-domestic-violence}{Effect on children II} cognitive development is affected, learning difficulties are more common, difficulties in social relationships, withdrawal, antisocial behaviours, they are more likely to become both perpetrators and victims of domestic abuse; protective factors: literacy, intelligence, social competence, supportive relationship with at least one influential adult 
 
 
-\textcolor{red}{\textit{Detailed plan}} First, we will explore the causal effect of past experiences of domestic and child abuse on present socio-economic outcomes. First, using the CSEW, we will explore how experiencing abuse in childhood affects educational, employment and health outcomes in adulthood. The 2016 CSEW included a module asking respondents about whether they experienced abuse as a child or witnessed domestic abuse. \href{https://www.ons.gov.uk/releases/abuseduringchildhoodfindingsfromtheyearendingmarch2016crimesurveyforenglandandwales}{Descriptive statistics} of this dataset revealed that those who reported to have experienced abuse as a child were significantly more likely to report long-term health problems, and live in a single parent household. However, due to the possibility of various confounders (e.g., those growing up in economically deprived areas are more likely to experience abuse, but economic deprivation also affects educational outcomes), these statistics do not tell us the causal effect of childhood abuse on socio-economic outcomes in adulthood. To overcome this difficulty in establishing causal relationships, we will use propensity score matching, a statistical approach that allows for causal inferences to be drawn about the effect of childhood abuse on educational, employment, and mental and physical health outcomes, and the probability of experiencing domestic abuse in adulthood. In a similar vein, using propensity score matching, we will explore how past experiences of domestic abuse affect current health outcomes, by comparing people who have experienced domestic abuse in the past, but not in the last 12 months, with people who have never experienced domestic abuse, but otherwise have similar socio-economic characteristics.
+\textcolor{red}{\textit{Detailed plan}} First, we will explore the causal effect of past experiences of domestic abuse on present socio-economic outcomes. First, using the CSEW, we will explore how witnessing abuse at home in childhood affects educational, employment and health outcomes in adulthood. The 2016 CSEW included a module asking respondents about whether they witnessed domestic abuse at home as a child. Descriptive statistics of this dataset revealed that those who reported to have witnessed abuse as a child were significantly more likely to report long-term health problems, and live in a single parent household as an adult \cite{ONSChildhood}. However, due to the possibility of various confounders (e.g., those growing up in economically deprived areas are more likely to witnessing abuse, but economic deprivation also affects educational outcomes), these descriptive statistics do not reveal the causal effect of witnessing abuse as a child on socio-economic outcomes in adulthood. To overcome this difficulty in quantifying this causal relationship, we will use propensity score matching, a statistical approach that allows for causal inferences to be drawn about the effect of witnessing abuse on educational, employment, and mental and physical health outcomes, and the probability of experiencing domestic abuse in adulthood. In a similar vein, using propensity score matching and the CSEW, we will explore how past experiences of domestic abuse affect current health outcomes, by comparing people who have experienced domestic abuse in the past, but not in the last 12 months, with people who have never experienced domestic abuse, but otherwise have similar socio-economic characteristics.
 
 
-Second, using both the CSEW and WMP, we will explore how children's behavioural problems are affected by witnessing or experiencing domestic abuse at home. Using data from the 10-15 year old questionnaire of the CSEW, which can be linked to the adult questionnaire, we can examine the effect of domestic and child abuse on children living in such households. The children's questionnaire records information on whether the child had been physically or verbally abused by someone (and if that person lives in the household), as well as their experiences with bullying, carrying knives, and information on gang membership, school truancy, learning difficulties and health, including drug use and drinking behaviour. This allows us to explore the causal effect of past and present domestic abuse in the household and child abuse on these outcomes through propensity score matching. \textit{Estimating the effect of indirect exposure to domestic abuse through a previously abused parent?}
+Second, using both the CSEW and WMP, we will explore how children's behavioural problems are affected by witnessing domestic abuse at home. Using data from the 10-15 year old questionnaire of the CSEW (which can be linked to the adult questionnaire), we can examine the effect of domestic abuse on children living in such households. The children's questionnaire records information about experiences with bullying, carrying knives, gang membership, school truancy, learning difficulties and health outcomes, including drug use and drinking behaviour. Using this dataset and a propensity score matching approach, we will explore the causal effect of living in an abusive household on childhood behavioural outcomes.
 
-
-We will complement this analysis using the WMP, by estimating how living in a household with domestic and child abuse affects the likelihood of engaging in various types of criminal behaviours (property-related vs violent crime). We will do so by identifying what percentage of young offenders are victims of child abuse, and have a home address that is associated with domestic abuse incidents. Given the problem of underreporting, this will give us a lower bound for the estimate of the proportion of children with behavioural problems who live in abusive households. \textit{?}
+We will complement this analysis using data on young offenders from the WMP. We will identify if young offenders' home addresses can be linked with a domestic abuse incident which will allow us to explore whether the type of domestic abuse in the household (if any) predict the type of crime they will engage in (property-related, public order offence, violent), controlling for the socio-economic characteristics of the neighbourhood (from the Indices of Multiple Deprivation; IMD).
 
 
 
 \begin{table}[!htbp]
-\caption{The long-lasting effects of domestic abuse, regressions}
+\caption{The long-lasting effects of domestic abuse, analysis plan}
   \begin{threeparttable}[t]
   \centering
        \begin{tabular}{ L{2.8cm}  C{1.8cm}  C{1.8cm}  C{3.2cm}  C{2.8cm}  C{2cm} }
@@ -319,7 +319,7 @@ We will complement this analysis using the WMP, by estimating how living in a ho
                 \midrule
      How does living a household with domestic abuse affect behavioural outcomes in childhood? & CSEW & Individual (respondent-level) & Bullying, involvement with gangs, school truancy, carrying knives, drugs and alcohol usage, learning difficulties, health & Degree and type of domestic abuse in household & Propensity score matching \\
                 \midrule
-          Are young offenders from abusive households more violent? & WMP & Young offenders (individual) & Type of offence (property-related, public order offence, violent) & Household LSOA socio-economic characteristics, abusive household or not & Multinomial logistic regression \\
+          Are young offenders from abusive households more violent? & WMP, IMD & Young offenders (individual) & Type of offence (property-related, public order offence, violent) & Household LSOA socio-economic characteristics, abusive household or not & Multinomial logistic regression \\
      \bottomrule
   \end{tabular}
     \end{threeparttable}%
@@ -364,7 +364,7 @@ We will complement this analysis using the WMP, by estimating how living in a ho
 
 \textcolor{red}{\textit{Core outcomes}}
  The first UK-based quantitative exploration of the causal effect of domestic abuse and childhood abuse on socio-economic outcomes.
-
+\FloatBarrier
 \subsection*{Environmental factors}
 
 \textcolor{red}{\textit{Short intro about aims, highlighting added value.}}
@@ -388,7 +388,7 @@ We will also explore how time-varying, exogenous factors affect domestic abuse. 
 %
 %\href{https://journals.sagepub.com/doi/abs/10.1177/1524838013515758}{Neighborhood Environment and Intimate Partner Violence: A Systematic Review }
 
-\textcolor{red}{\textit{Detailed plan}} Using the CSEW, we will first explore the association between the environmental characteristics of the neighbourhood, the prevalence of domestic abuse and willingness to report. Previous literature has suggested various pathways, including reduced collective efficacy of neighbourhood, and normalisation and acceptance of violence through social norms to explain the link between neighbourhood characteristics and domestic abuse, but the question has not been explored in a UK context yet. Using a logistic regression, we will explore how the interviewer's perception of the street (signs of rubbish, vandalism, and the general condition of houses, member of Neighbourhood Watch) as well as the respondent's connection and attitude towards the neighbourhood (length of time living in the local area, noisy neighbours, rubbish lying around, teenagers hanging around, vandalism, drunken and anti-social behaviour, drug trafficking, abandoned cars, speeding traffic, police presence in the area, worries about crime levels) predict domestic abuse victimisation, after controlling for the socio-economic characteristics of the respondent. In investigating this question further, we will explore how deprivation in a neighbourhood (LSOA level, measured by the \href{https://data.gov.uk/dataset/8f601edb-6974-417e-9c9d-85832dd2bbf2/english-indices-of-deprivation-2015-lsoa-level}{Multiple Indices of Deprivation}) affects the prevalence of domestic abuse (estimated from the CSEW), and the willingness to report, using a spatial regression framework. Using this statistical approach will alleviate the problem of spatial dependency in our dataset, and will allow us to derive a precise estimate of the effect. These analyses will extend our understanding of the neighbourhood-level predictors of domestic abuse victimisation, and complement our individual-level approach outlined in the first project to provide a comprehensive exploration of the factors affecting domestic abuse victimisation and willingness to report. 
+\textcolor{red}{\textit{Detailed plan}} Using the CSEW, we will first explore the association between the environmental characteristics of the neighbourhood, the prevalence of domestic abuse and willingness to report. Previous literature has suggested various pathways, including reduced collective efficacy of neighbourhood, and normalisation and acceptance of violence through social norms to explain the link between neighbourhood characteristics and domestic abuse, but the question has not been explored in a UK context yet. Using a logistic regression, we will explore how the interviewer's perception of the street (signs of rubbish, vandalism, and the general condition of houses, member of Neighbourhood Watch) as well as the respondent's connection and attitude towards the neighbourhood (length of time living in the local area, noisy neighbours, rubbish lying around, teenagers hanging around, vandalism, drunken and anti-social behaviour, drug trafficking, abandoned cars, speeding traffic, police presence in the area, worries about crime levels) predict domestic abuse victimisation, after controlling for the socio-economic characteristics of the respondent. In investigating this question further, we will explore how deprivation in a neighbourhood (LSOA level, measured by the Multiple Indices of Deprivation; \citeNP{IMD}) affects the prevalence of domestic abuse (estimated from the CSEW), and the willingness to report, using a spatial regression framework. Using this statistical approach will alleviate the problem of spatial dependency in our dataset, and will allow us to derive a precise estimate of the effect. These analyses will extend our understanding of the neighbourhood-level predictors of domestic abuse victimisation, and complement our individual-level approach outlined in the first project to provide a comprehensive exploration of the factors affecting domestic abuse victimisation and willingness to report. 
  
 
 
@@ -401,7 +401,7 @@ We are also interested in exploring how time-varying external factors, including
 
 
 \begin{table}[!htbp]
-\caption{Environmental factors affecting domestic abuse, regressions}
+\caption{Environmental factors affecting domestic abuse, analysis plan}
   \begin{threeparttable}[t]
   \centering
        \begin{tabular}{ L{2.8cm}  C{1.8cm}  C{1.8cm}  C{3.2cm}  C{2.8cm}  C{2cm} }
