@@ -22,7 +22,7 @@ Owing to the fact that it occurs in private settings, domestic abuse is a vastly
 
 Our previous investigation of the link between football and domestic abuse had shown that alcohol-related domestic abuse increase by 61% when the England national football team wins.
 
-In this research project, we aim to conduct the first 
+In this research project, we aim to conduct the first comprehensive investigation of the individual and environmental factors conducive to domestic abuse, and the casual consequences of being a direct or indirect victim of domestic abuse.
 
 what we know so far
 
