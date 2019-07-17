@@ -1,0 +1,399 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Callaghan%
+, Alexander%
+, Sixsmith%
+\BCBL {}\ \BBA {} Fellin%
+}{%
+Callaghan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+callaghan}
+\APACinsertmetastar {%
+callaghan}%
+\begin{APACrefauthors}%
+Callaghan, J\BPBI E\BPBI M.%
+, Alexander, J\BPBI H.%
+, Sixsmith, J.%
+\BCBL {}\ \BBA {} Fellin, L\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Beyond “witnessing”: children's experiences of
+  coercive control in domestic violence and abuse}} {{Beyond “witnessing”:
+  children's experiences of coercive control in domestic violence and
+  abuse}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Interpersonal Violence}{33}{10}{1551--1581}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Crown Prosecution Service}%
+}{%
+{Crown Prosecution Service}%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+govuk}
+\APACinsertmetastar {%
+govuk}%
+\begin{APACrefauthors}%
+{Crown Prosecution Service}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {{Domestic abuse}.} {{Domestic abuse}.}
+\newblock
+\begin{APACrefURL} \url{https://www.cps.gov.uk/domestic-abuse} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ferrari%
+\ \protect \BOthers {.}}{%
+Ferrari%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+ferrari}
+\APACinsertmetastar {%
+ferrari}%
+\begin{APACrefauthors}%
+Ferrari, G.%
+, Agnew-Davies, R.%
+, Bailey, J.%
+, Howard, L.%
+, Howarth, E.%
+, Peters, T\BPBI J.%
+\BDBL {}Feder, G\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Domestic violence and mental health: a cross-sectional
+  survey of women seeking help from domestic violence support services.}}
+  {{Domestic violence and mental health: a cross-sectional survey of women
+  seeking help from domestic violence support services.}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Global Health Action}{7}{1}{25519}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Her Majesty's Inspectorate of Constabulary and Fires {\&} Rescue Services}%
+}{%
+{Her Majesty's Inspectorate of Constabulary and Fires {\&} Rescue Services}%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+HerMajestysInspectorateofConstabularyandFires&RescueServices2019}
+\APACinsertmetastar {%
+HerMajestysInspectorateofConstabularyandFires&RescueServices2019}%
+\begin{APACrefauthors}%
+{Her Majesty's Inspectorate of Constabulary and Fires {\&} Rescue Services}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+\APACrefbtitle {{Reports - Rolling programme of crime data integrity
+  inspections}.} {{Reports - Rolling programme of crime data integrity
+  inspections}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.justiceinspectorates.gov.uk/hmicfrs/publications/west-midlands-crime-data-integrity-re-inspection-2018/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Home Office}%
+}{%
+{Home Office}%
+}{%
+{\protect \APACyear {2018}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+countingrules}
+\APACinsertmetastar {%
+countingrules}%
+\begin{APACrefauthors}%
+{Home Office}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018{\protect \BCnt {1}}}{}{}.
+\newblock
+\APACrefbtitle {{Home Office counting rules for recorded crime}.} {{Home Office
+  counting rules for recorded crime}.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Home Office}%
+}{%
+{Home Office}%
+}{%
+{\protect \APACyear {2018}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+Homeoffice}
+\APACinsertmetastar {%
+Homeoffice}%
+\begin{APACrefauthors}%
+{Home Office}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018{\protect \BCnt {2}}}{}{}.
+\newblock
+\APACrefbtitle {{Police funding for England and Wales 2015 to 2019}.} {{Police
+  funding for England and Wales 2015 to 2019}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.gov.uk/government/statistics/police-funding-for-england-and-wales-2015-to-2019}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Office for National Statistics}%
+}{%
+{Office for National Statistics}%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+ONSChildhood}
+\APACinsertmetastar {%
+ONSChildhood}%
+\begin{APACrefauthors}%
+{Office for National Statistics}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {{Abuse during childhood - Office for National Statistics}.}
+  {{Abuse during childhood - Office for National Statistics}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/abuseduringchildhood/findingsfromtheyearendingmarch2016crimesurveyforenglandandwales/pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Office for National Statistics}%
+}{%
+{Office for National Statistics}%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+ONS}
+\APACinsertmetastar {%
+ONS}%
+\begin{APACrefauthors}%
+{Office for National Statistics}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {{Domestic abuse in England and Wales: year ending March 2018}.}
+  {{Domestic abuse in England and Wales: year ending March 2018}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/domesticabuseinenglandandwales/yearendingmarch2018/pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Office for National Statistics}%
+}{%
+{Office for National Statistics}%
+}{%
+{\protect \APACyear {2019}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+homic}
+\APACinsertmetastar {%
+homic}%
+\begin{APACrefauthors}%
+{Office for National Statistics}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019{\protect \BCnt {1}}}{}{}.
+\newblock
+\APACrefbtitle {{Homicide in England and Wales: year ending March 2018}.}
+  {{Homicide in England and Wales: year ending March 2018}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/homicideinenglandandwales/yearendingmarch2018/pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Office for National Statistics}%
+}{%
+{Office for National Statistics}%
+}{%
+{\protect \APACyear {2019}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+OfficeforNationalStatistics2019}
+\APACinsertmetastar {%
+OfficeforNationalStatistics2019}%
+\begin{APACrefauthors}%
+{Office for National Statistics}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019{\protect \BCnt {2}}}{}{}.
+\newblock
+\APACrefbtitle {{User guide to crime statistics for England and Wales}.} {{User
+  guide to crime statistics for England and Wales}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/methodologies/userguidetocrimestatisticsforenglandandwales/pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Oliver%
+, Alexander%
+, Roe%
+\BCBL {}\ \BBA {} Wlasny%
+}{%
+Oliver%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+costs}
+\APACinsertmetastar {%
+costs}%
+\begin{APACrefauthors}%
+Oliver, R.%
+, Alexander, B.%
+, Roe, S.%
+\BCBL {}\ \BBA {} Wlasny, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+\APACrefbtitle {{The economic and social costs of domestic abuse}.} {{The
+  economic and social costs of domestic abuse}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.gov.uk/government/publications/the-economic-and-social-costs-of-domestic-abuse}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Prpic%
+\ \BBA {} Rosamund%
+}{%
+Prpic%
+\ \BBA {} Rosamund%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+ep}
+\APACinsertmetastar {%
+ep}%
+\begin{APACrefauthors}%
+Prpic, M.%
+\BCBT {}\ \BBA {} Rosamund, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {{Violence against women in the EU: State of play}} {{Violence
+  against women in the EU: State of play}}\ \APACbVolEdTR {}{Briefing Paper
+  Series\ \BNUM\ 630296}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.europarl.europa.eu/thinktank/en/document.html?reference=EPRS_BRI(2018)630296}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Safe Lives}%
+}{%
+{Safe Lives}%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+SafeLives2015}
+\APACinsertmetastar {%
+SafeLives2015}%
+\begin{APACrefauthors}%
+{Safe Lives}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {{Ending Domestic Abuse - Getting it right first time}.}
+  {{Ending Domestic Abuse - Getting it right first time}.}
+\newblock
+\begin{APACrefURL}
+  \url{http://www.safelives.org.uk/policy-evidence/getting-it-right-first-time}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Smith%
+\ \protect \BOthers {.}}{%
+Smith%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+IMD}
+\APACinsertmetastar {%
+IMD}%
+\begin{APACrefauthors}%
+Smith, T.%
+, Noble, M.%
+, Noble, S.%
+, Wright, G.%
+, McLennan, D.%
+\BCBL {}\ \BBA {} Plunkett, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {{The English Indices of Deprivation 2015}.} {{The English
+  Indices of Deprivation 2015}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.gov.uk/government/statistics/english-indices-of-deprivation-2015}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Thornton%
+}{%
+Thornton%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+thornton}
+\APACinsertmetastar {%
+thornton}%
+\begin{APACrefauthors}%
+Thornton, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Police Attempts to Predict Domestic Murder and Serious
+  Assaults: Is Early Warning Possible Yet?}} {{Police Attempts to Predict
+  Domestic Murder and Serious Assaults: Is Early Warning Possible Yet?}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cambridge Journal of Evidence-Based
+  Policing}{1}{2-3}{64--80}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
