@@ -1,0 +1,63 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Almond%
+, Mcmanus%
+, Brian%
+\BCBL {}\ \BBA {} Merrington%
+}{%
+Almond%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+dash}
+\APACinsertmetastar {%
+dash}%
+\begin{APACrefauthors}%
+Almond, L.%
+, Mcmanus, M\BPBI A.%
+, Brian, D\BPBI J.%
+\BCBL {}\ \BBA {} Merrington, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Exploration of the risk factors contained within the
+  UK's existing domestic abuse risk assessment tool (DASH): do these risk
+  factors have individual predictive validity regarding recidivism?}}
+  {{Exploration of the risk factors contained within the UK's existing domestic
+  abuse risk assessment tool (DASH): do these risk factors have individual
+  predictive validity regarding recidivism?}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Aggression, Conflict and Peace
+  Research}{9}{1}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Home Office}%
+}{%
+{Home Office}%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+vawag}
+\APACinsertmetastar {%
+vawag}%
+\begin{APACrefauthors}%
+{Home Office}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {{Strategy to end violence against women and girls: 2016 to
+  2020}} {{Strategy to end violence against women and girls: 2016 to 2020}}\
+  \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.gov.uk/government/publications/strategy-to-end-violence-against-women-and-girls-2016-to-2020}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
