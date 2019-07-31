@@ -1,0 +1,325 @@
+---
+bibliography:
+- 'domesticabuse\_refs.bib'
+title: Understanding domestic abuse
+---
+
+Objectives
+==========
+
+*List the main objectives of the proposed research \[up to 4000 chars\]*
+
+Who are the people most vulnerable to becoming victims of domestic
+abuse? To what extent do neighbourhood characteristics predict the
+prevalence of domestic abuse? What predicts serious harm and victims'
+decision to finally report the abuse? What is the quantifiable,
+long-term impact of domestic abuse victimisation or witnessing domestic
+abuse as a child on socio-economic and health outcomes in later life?
+How do changes in alcohol consumption and financial stability affect the
+prevalence of domestic abuse? In this research project, we will address
+these questions using a wide range of quantitative approaches and
+various data sources.
+
+We have 4 core objectives.
+
+1\) To conduct the first large-scale, quantitative exploration of the
+individual- and neighbourhood-level risk factors of domestic abuse
+victimisation in England and Wales. By validating insights from
+previous, mostly qualitative investigations, we will provide a deeper
+understanding of the socio-economic factors and their interactions in
+perpetuating domestic abuse in England and Wales. While we will only use
+UK-specific data, insights from these analyses are likely to be
+applicable to non-UK contexts.
+
+2\) To improve our understanding of the economic costs of domestic abuse,
+by quantifying the causal effect of victimisation on a variety of
+socio-economic outcomes. Current cost estimates by the government do not
+take into account how educational attainment, income and employment
+status of victims are affected by victimisation and witnessing abuse as
+a child [@costs]. We will improve the precision of this calculation with
+the first, comprehensive UK-based exploration of the long-term effects
+of domestic abuse victimisation.
+
+3\) To translate our research into impact by delivering applicable
+insights for the relevant agencies, including the police and
+policy-makers. Our research will provide the police with important
+information to facilitate the optimal geographical and temporal
+allocation of resources and improvement of crime recording practices. In
+addition, these insights will also help the government to design more
+effective intervention campaigns to protect victims and will be of
+interest to a wide range of academics.
+
+4\) To exploit the rich information contained in the Crime Survey for
+England and Wales (CSEW) to explore the predictors and consequences of
+domestic abuse victimisation. Despite the rich, detailed information
+contained in the CSEW about respondents, we are not aware of any
+non-exploratory study using the CSEW to understand the predictors and
+consequences of domestic abuse victimisation in England and Wales. We
+aim to take full advantage of the wealth of information in the CSEW in
+understanding domestic abuse.
+
+Summary
+=======
+
+*Describe the proposed research in simple terms in a way that could be
+publicised to a general audience \[up to 4000 chars\]*
+
+Concern about domestic abuse is widespread, and it is rightly identified
+as a serious societal issue affecting the lives of people from all walks
+of life. However, the true extent of the problem is still often
+underestimated, and hard to comprehend: 2 million adults in England and
+Wales (7.9% of women and 4.2% of men) reported to have experienced some
+form of domestic abuse in the year ending 2018 March [@ONS], and 41% of
+all women murdered in England and Wales in this period were victims of
+domestic homicide. The long-lasting, damaging effects of domestic abuse
+are not limited to the direct target of abuse, but it also has serious
+developmental implications for children witnessing the abuse.
+Illustrating the extent of the societal harm caused by domestic abuse,
+the economic cost of domestic abuse in England and Wales was estimated
+to be as high as £66 billion in the year ending March, 2017 [@costs].
+
+Despite the extent and severity of the problem, there is relatively
+little academic research focusing on domestic abuse in the context of
+the UK, perhaps due to the lack of reliable data sources. Using police
+data to understand domestic abuse is problematic due to the vast levels
+of underreporting, while insights from qualitative approaches are hard
+to generalise. In the UK, the most reliable source of data on domestic
+abuse is the Crime Survey for England and Wales (CSEW), an annual,
+cross-sectional representative survey collecting information on
+socio-economic characteristics as well as experiences of domestic abuse
+[@OfficeforNationalStatistics2019]. While the Office for National
+Statistics (ONS) regularly publishes findings from the CSEW, these are
+mostly exploratory and descriptive in nature. Despite the rich
+information provided by this survey, only a limited number of studies
+have utilised the CSEW to explore the predictors of domestic abuse
+victimisation in England and Wales (e.g., ).
+
+Our project fills this gap in our current understanding of domestic
+abuse, by taking advantage of the wealth of information contained in the
+CSEW, and drawing on other data sources to complement the findings.
+Applying sophisticated statistical techniques tailored to each analysis
+(including regression, random forest, and propensity score matching), we
+will identify the individual and neighbourhood-level predictors of
+domestic abuse victimisation, and the factors affecting victims'
+willingness to contact the police. We will also explore whether police
+mis-recording of domestic abuse-related crimes disproportionately
+affects certain victim groups. Furthermore, we will quantify the short-
+and long-term causal effects of witnessing domestic abuse on behavioural
+outcomes in young adulthood (with particular focus on the propensity to
+engage in violent criminal behaviours) and socio-economic and
+health-related outcomes in later life. Finally, we will explore how
+alcohol consumption, spending on gambling, and changes in benefit
+receipts affect the prevalence of domestic abuse.
+
+Our work will primarily have implications for the police and
+policy-makers. For example, insights about the predictors of serious
+harm can inform the police protocol aiming to prevent domestic
+homicides, while understanding the extent to which crime mis-recording
+depends on victim characteristics will help the police to understand the
+causes of mis-recording and improve their practices. Policy-makers will
+be able to design more effective awareness campaigns using information
+on the geographical and temporal characteristics of domestic abuse
+victimisation, reporting behaviour, the extent to which gambling and
+alcohol spending affects it, and better understand its far-reaching
+societal implications, with particular focus on the effect of domestic
+abuse victimisation on propensity to violence in young adulthood, and
+socio-economic outcomes in later life.
+
+Academic Beneficiaries
+======================
+
+*Describe who will benefit from the research \[up to 4000 chars\].*
+
+Owing to the wide variety of questions we aim to answer, and the diverse
+methodological approaches we plan to employ in addressing these
+questions, our research will deliver insights relevant to researchers
+across various social science disciplines, including psychology,
+behavioural science, criminology and health economics.
+
+Psychologists working on understanding the risk factors of domestic
+abuse victimisation will benefit from the first comprehensive,
+quantitative UK-based investigation of the individual and environmental
+predictors of domestic abuse victimisation. Previous investigations
+focusing on domestic abuse in the context of the UK have either
+exclusively relied on police records or used a small-sample, qualitative
+approach. By drawing on multiple data sources, including police crime
+data and the CSEW, we can combine their strengths to validate previous
+findings and deliver new insights stimulating future research efforts.
+
+Behavioural researchers will benefit from our work exploring how
+exogenous, time-varying factors affect the willingness to report, and
+the causal effect of alcohol consumption and financial shocks on the
+prevalence of domestic abuse. These insights will be particularly
+important for behavioural researchers working for Behavioural Insights
+Teams and the UK government, owing to their policy-relevant nature.
+
+Criminologists working on exploring the experiences of domestic abuse
+survivors in the Criminal Justice System will benefit from our research
+examining whether police mis-recording disproportionately affects
+certain victim groups, and its implications for victim's trust in the
+CJS.
+
+Health economists will be interested in our work on how direct or
+indirect domestic abuse victimisation affects socio-economic outcomes
+and physical and mental well-being in later life. These estimates will
+help us improve the precision of the estimated cost of domestic abuse in
+the UK.
+
+Staff Duties
+============
+
+*Summarise the roles and responsibilities of each post for which funding
+is sought \[up to 2000 characters\]*
+
+As PI, Mullett will be responsible for coordinating the research. He
+will also act as the data controller for this project. Mullett has
+attained level three vetting with West Midlands Police, allowing him
+more comprehensive access to original police records, and he has the
+appropriate experience coordinating large datasets within projects. He
+will act as supervisor to the early career researcher Anna Trendl,
+ensuring that she can continue to build upon the research capabilities
+she has already developed during her PhD. As a member of the Centre for
+Operational Policing Research (COPR), he will, in tandem with Prof Neil
+Stewart, liaise with West Midlands Police to ensure that the results are
+communicated back in the most effective and interpretable manner. This
+will maximise the impact that this research produces. Mullett will
+contribute extensively to the research design and writing academic
+papers.
+
+As Co-I, Stewart's responsibilities will be to aid in coordinating the
+research program. He will also meet regularly with the early career
+researcher Anna Trendl, providing insights and support---Stewart has
+extensive experience supervising postdoctoral researchers. A major role
+will also be to coordinate the communication of the results within the
+broader context of the Centre for Operational Policing Research (COPR)
+activities. This coordination, and the possibility for links and
+collaboration with other COPR members or projects will provide unique
+added value to the research. Stewart will contribute to the research
+design and writing academic papers.
+
+As Post-Doctoral researcher, Trendl will be responsible for performing
+the analyses upon the data, and, as is the norm in psychology, leading
+the writing of the resulting papers. She will also be deeply involved
+with impact related activity. As an early career researcher, it is
+crucial that she be given the opportunity to expand her network, and
+attain these new skills. The demands of this project mean it is
+essential that this is a postdoctoral role, and that the individual has
+a strong track record in statistical analysis. Trendl already has
+extensive experience with the WMP records.
+
+Impact Summary 
+===============
+
+*(please refer to the help for guidance on what to consider when
+completing this section) \[up to 4000 chars\]*
+
+In 2018, there were almost 2 million victims of domestic abuse in
+England and Wales alone. Domestic abuse has a terrible impact upon
+victims in a variety of ways, and ultimately, the fundamental goal of
+this research project is to benefit victims of domestic abuse by
+improving their safety and access to support. However, the effects of
+domestic abuse are multi-faceted and far reaching. Such abuse often
+touches the lives of those far beyond the initial victim, such as
+children, family, neighbours, friends, and colleagues.
+
+This research uses a variety of existing data sets, to help us better
+understand the patterns, characteristics, and consequences of domestic
+abuse victimisation. The research will help to identify underlying risk
+factors for potential domestic abuse victims, and indicators for the
+most violent domestic abuse incidents, such as domestic homicide. We
+will engage with a number of stakeholders (police, domestic abuse
+charities, national and local government), and provide insights relevant
+to their specific role in reducing the prevalence and harm caused by
+domestic abuse.
+
+Many of our primary partners are within the police force. Our insights
+about police mis-recording of domestic abuse will help the police
+improve their recording practices, enhancing victim's trust in the
+police, and increase willingness to report future incidents.
+
+In addition, the research will help the police to identify individuals
+who are most at risk of being victims of domestic abuse, and improve
+risk assessment models to identify situations which could escalate into
+serious acts of violence. It will also enable the identification of
+likely triggers for the onset, or worsening of ongoing abuse allowing
+police to better direct resources and design risk assessment frameworks.
+The potential triggers that we will investigate include high profile
+events such as sporting tournaments, and economic shocks, such as
+changes to the structure of benefit payments. Not only will this help
+the police, but it will also help policy makers estimate the likely
+impacts of policy change.
+
+The police will also benefit from a deeper understanding of the factors
+governing reporting behaviour, and its temporal characteristics
+throughout the year, and this knowledge will allow them to improve the
+allocation of scarce police resources.
+
+For domestic abuse charities and the government, insights from our
+research regarding the geographical and temporal characteristics of
+domestic abuse victimisation will provide invaluable information for the
+most effective targeting of domestic abuse awareness campaigns.
+
+Ethical Information
+===================
+
+*Please explain what, if any, ethical issues you believe are relevant to
+the proposed research project, and which ethical approvals have been
+obtained, or will be sought if the project is funded? If you believe
+that an ethics review is not necessary, please explain your view
+(available: 4000 characters)*
+
+The primary ethical concerns in this project centre around data privacy
+and data security. In particular, the West Midlands Police datasets are
+highly sensitive. If data were to end up in the wrong hands could be
+particularly damaging for the individuals present in the data, as well
+as for the WMP force, and even the researchers. For this reason we have
+developed our data security approach in tandem with WMP to ensure that
+data is only ever held and transported securely, and that researchers
+hold only the minimum amount of information in order to perform the
+research.
+
+We will never link individuals across datasets, and our lab data plan is
+fully compliant with GDPR.
+
+As this research only involves secondary data analysis, concerns about
+possible harms during data collection are not relevant. However, in
+presenting the results, care will be taken to respect individuals who
+have been victims.
+
+One potential concern is the possibility of consuming police resources
+that are needed elsewhere. This is an ever present consideration within
+the Centre for Operational Policing Research. WMP have already outputted
+their data, and we have applied data cleaning to it ourselves.
+Therefore, we will make very minimal requests on police resources. Our
+primary cost upon staff time will be during feeding back our results to
+influence police operations and policy. There are structures within the
+police force specifically designed for this, so by presenting our
+findings to those, we will actually increase WMP efficiency.
+
+Approval for this secondary data analysis will be attained from the
+University of Warwick's Humanities and Social Science Research Ethics
+Committee (HSSREC), as it has been for our previous work using WMP and
+other large datasets.
+
+Attachments
+===========
+
+[Instructions for
+attachments](https://je-s.rcuk.ac.uk/Handbook/Index.htm#pages/GuidanceonCompletingaStandardG/CaseforSupportandAttachments/ESRCSpecificRequirements.htm)
+
+\* Case for support (6 page limit, 11 points, A4, 1\" margins)
+
+\* References
+
+\* Pathways to Impact (2 sides of A4)
+
+\* Justification of Resources (2 sides of A4)
+
+\* Letter of support from WMP
+
+\* Data management plan (modify from [lab
+plan](https://github.com/neil-stewart/data_management_plan)
+
+\* Accumulating to choose progress report
+
+\* NIBS2 progress report
