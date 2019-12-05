@@ -11,9 +11,6 @@ Our proposal aims to bring a data science approach to the study of domestic abus
 
 We were dismayed by the reviews. Our approach contrasts with the qualitative approach and it is from this background that the reviewers appear to have come. Although the reviewers identified that there is a need for quantitative research, in a field dominated by qualitative work, they subsequently focused their reviews on qualitative models and theory. Reviewer 199347314 even suggests that a data driven approach is a negative aspect of the proposal. Something we found particularly incongruous given that this is a proposal for the Secondary Data Analysis Initiative. Furthermore, recent results from a related ESRC grant have shown that existing models such as DASH have little to no explanatory power when tested empirically, hence demonstrating the desperate need for analyses that are quantitative and data driven
  
-The reviewers' criticism is focused on us as new researchers in their domain and on the feasibility of the work. We mitigate the former risk by working with an advisory board and including coauthors from a domestic abuse background. We mitigate the latter risk by already holding or having access to all of the data needed for the project, with necessary data sharing and other legal agreements signed and in place. 
-
-% Reviewer 158241287 raised issues about access to data, even though we already have access to all of the data required and stated so in the proposal.
 
 
 ## Research team experience
@@ -21,20 +18,23 @@ The reviewers' criticism is focused on us as new researchers in their domain and
 Several reviewers made the point that our research team does not have extensive experience in domestic abuse research. While we might not have a track record in domestic abuse research, we would like to clarify that our proposal was written in full knowledge of the relevant literature (which we chose not to detail so there was sufficient space to outline our empirical strategy). Our research team is fully qualified to carry out the proposed research programme, as is demonstrated by numerous, high-impact publications in other, policy-relevant research topics, from estimating the harm of gambling in the UK using bank transaction data (under review in  _Nature_), [peer effects in police misconduct](https://rdcu.be/bEAue), [nudging customers to increase their credit card debt repayment](https://www.fca.org.uk/publication/occasional-papers/occasional-paper-45.pdf), [and using Big Data to test environmental effects on behaviour and personality](https://www.ncbi.nlm.nih.gov/pubmed/31046588#:~:targetText=Individual%2DLevel%20Analyses%20of%20the%20Impact%20of%20Parasite%20Stress%20on,Openness%20Only%20for%20Older%20Individuals.&targetText=The%20parasite%20stress%20hypothesis%20predicts,and%20extraversion%2C%20but%20higher%20conscientiousness.).   
 In particular, in the gambling paper, we use Lloyds Banking Group transaction data from millions of individuals to demonstrate that gambling is associated with increased financial distress, reduced lifestyle and health outcomes, higher rates of future unemployment and disability, and higher mortality rates. This view is unique and the first ever to demonstrate such associations---again complementing the traditional qualitative case-study and small survey based approach.
 
+We will also establish an advisory board for the project, comprising a senior police officer from West Midlands Police, a senior member of the WMP Police and Crime Commissioner's Office, an academic with experience in domestic abuse, Prof Vanessa Munro, a lawyer based here at Warwick with extensive experience of domestic abuse, and a member of the charity sector (NAME CHARITY) and a survivor of domestic abuse (NOMINATED BY THE CHARITY).
+
 
 ## Feasibility
 
 
 One reviewer raised concerns about the feasibility of the project regarding access to the data. We would like to clarify that we already hold the necessary data. In addition, we have support from Deputy Chief constable Louisa Rolfe at West Midlands Police, who is also the National Police Chiefs' Council lead for domestic abuse. Named postdoc Trendl works here at Warwick and is also an employee of Lloyds Banking Group in their behavioural and data science team. We have director level support from Lloyds Banking Group for the project. Applying data at this scale to the study of domestic abuse has never been done before. 
 
+One reviewer raised concerns about the feasibility of the project regarding access to the data. We would like to clarify that we already hold the necessary data (with the exception of the CSEW, which is accessible for academic research). In addition, we have support from Deputy Chief constable Louisa Rolfe at West Midlands Police, who is also the National Police Chiefs' Council lead for domestic abuse. Named postdoc Trendl works as a postdoc here at Warwick and is also an employee of Lloyds Banking Group in their behavioural and data science team. We have director level support from Lloyds Banking Group for the project. Applying data at this scale to the study of domestic abuse has never been done before. 
 
 
+-------------
 
 
 
 No one else has or is currently proposing to take a data science view of domestic abuse across multiple, diverse datasets. As 199347314 describes, "most research on domestic abuse in the UK context is qualitative in nature". Quantitative work in the area has only incorporated a single data source (such as the CSEW, _or_ data from a police force), and does not incorporate external data which can provide additional data on potential causes and environmental risk factors. 
 
-We will establish an advisory board for the project, comprising a senior police officer from West Midlands Police, a senior member of the WMP Police and Crime Commissioner's Office, an academic with experience in domestic abuse, Prof Vanessa Munro, a lawyer based here at Warwick with extensive experience of domestic abuse, and a member of the charity sector (NAME CHARITY) and a survivor of domestic abuse (NOMINATED BY THE CHARITY).
 
  
 5. As the application of multiple, very large datasets to research in domestic abuse is novel, there is no one with the required skills in econometrics and data science who also has a substantial track record in domestic abuse research to conduct this research. Requiring such a background would make it impossible to complete the research, because no such individuals exist. We have acknowledged this from the start, hence our working closely with domestic abuse leads in the police, and why we propose including an advisory panel. 
