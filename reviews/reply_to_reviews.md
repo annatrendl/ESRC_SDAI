@@ -20,6 +20,7 @@ As the application of multiple, very large datasets to research in domestic abus
 
 There is a vast scope for a data-driven approach to generate novel insights to complement existing qualitative research, as is demonstrated by numerous, high-impact publications in other, policy-relevant research topics, from estimating the harm of gambling in the UK using bank transaction data (under review in  _Nature_), [peer effects in police misconduct](https://rdcu.be/bEAue), [nudging customers to increase their credit card debt repayment](https://www.fca.org.uk/publication/occasional-papers/occasional-paper-45.pdf), [and using Big Data to test environmental effects on behaviour and personality](https://www.ncbi.nlm.nih.gov/pubmed/31046588#:~:targetText=Individual%2DLevel%20Analyses%20of%20the%20Impact%20of%20Parasite%20Stress%20on,Openness%20Only%20for%20Older%20Individuals.&targetText=The%20parasite%20stress%20hypothesis%20predicts,and%20extraversion%2C%20but%20higher%20conscientiousness.). In particular, in the gambling paper, we use Lloyds Banking Group transaction data from millions of individuals to demonstrate that gambling is associated with increased financial distress, reduced lifestyle and health outcomes, higher rates of future unemployment and disability, and higher mortality rates. This view is unique and the first ever to demonstrate such associations -- again complementing the traditional qualitative case-study and small survey based approach.
 
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
 
 ## Feasibility
 
