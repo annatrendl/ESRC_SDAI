@@ -42,4 +42,41 @@ We are familiar with the Walby papers on the cost of domestic abuse. We agree th
 
 %We have studied the currently funded ESRC project INSERT PROJECT NAME AND PI. Our proposal is quite different and compliments this work without duplication.
 
+##Anna comments
+
+###no previous experience in domestic abuse research/no collaboration with experts
+not sure what's the appropriate response to this
+
+
+###too data-driven/no clear theoretical framework or mention or previous studies/issues about originality as some of the questions have either been examined in the context of other countries or with a qualitative approach
+we are combining data from various sources to address key questions that either have never been examined or have only been examined using one approach - fresh perspectice argument, and emphasize the importance of data driven research. The mentioned {r} [ESRC grant] (https://gtr.ukri.org/projects?ref=ES/M01178X/1) looks at improving the DASH using "more sophisticated algorithms than a traditional logistic regression framework." -- I can't find more details on this, but they seem to be only using police data, whereas we are taking a broader view by relying on the very detailed information in the CSEW as well. We are also aware of the US literature on domestic abuse victimisation risk factors (which informed our selection of explanatory variables in the proposed analyses), however, we believe that we still lack the proper evidence base for understanding domestic abuse victimisation in the Uk. Despite of the documented issues with the CSEW, it is an incredibly rich and useful source of information on domestic abuse victimisation, which has not been exploited. Combining insights from the CSEW and police data will complement and validate existing knowledge from qualitative invetsigations.
+
+###issues with the CSEW
+Walby and Towers have found issues with the CSEW - in that it underestimates the true extent of domestic abuse given that it caps the maximum number of incidents (whereas domestic abuse is often repated). We are aware of this and plan to combine CSEW data with data from other sources.
+
+####data quality/data access issues/timescales
+
+
+####"worrying" assumptions
+
+
+###specific points: 
+young person living at the address -- we'll know this from police records
+police mis-reporting -- comparison of csew and police reports
+reliability of data, ethnicity -- 
+children, only a year of data //
+different explanatory variables for question 1--
+random forest not explaiend--
+causal effects --
+no domestic abuse journals--
+no mention of cost--
+
+
+
+
+
+
+
+
+
 
