@@ -35,7 +35,7 @@ As the application of multiple, very large datasets to research in domestic abus
 
 
 
-No one else has or is currently proposing to take a data science view of domestic abuse across multiple, diverse datasets. As 199347314 describes, "most research on domestic abuse in the UK context is qualitative in nature". Quantitative work in the area has only incorporated a single data source (such as the CSEW, _or_ data from a police force), and does not incorporate external data which can provide additional data on potential causes and environmental risk factors. 
+No one else has or is currently proposing to take a data science view of domestic abuse across multiple, diverse datasets. As 199347314 describes, "most research on domestic abuse in the UK context is qualitative in nature". Previous quantitative work in the area has generally been structured around a single data source (such as the CSEW, _or_ data from a police force), and does not incorporate external sources which can provide additional data on potential causes and environmental risk factors. 
 
 
  
