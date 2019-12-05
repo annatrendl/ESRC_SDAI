@@ -14,11 +14,11 @@ We were dismayed by the reviews. Our approach contrasts with the qualitative app
 All reviwers made the point that our research team does not have extensive experience in domestic abuse research. While we do not have a track record in domestic abuse research, we would like to clarify that our proposal was written in full knowledge of the relevant literature, and the lack of references in the proposal is merely a result of space limitations. Indeed, it is not possible to provide a complete (or even a short) review of the literature in a six page proposal, whilst also clearly outlining our analysis strategy, especially given the scale of the proposed project. We are fully aware of the studies by Walby and Towers, and we agree they are important seminal works highlighting the limitations of the CSEW. However, our proposal builds upon the qualitative findings and analysis of the CSEW, by integrating far more data, from more sources, and using more advanced data analytic techniques. We are also aware of the ESRC grant ES/M01178X/1 aiming to improve DASH, but our proposal substantially differs from it in terms of research questions, analysis techniques, and data sources.
 
 
+
 As the application of multiple, very large datasets to research in domestic abuse is novel, there is no one with the required skills in econometrics and data science who also has a substantial track record in domestic abuse research to conduct this research. Requiring such a background would make it impossible to complete the research, because no such individuals exist. We have acknowledged this from the start, hence our working closely with domestic abuse leads in the police, and why we propose including an advisory panel, comprising a senior police officer from West Midlands Police, a senior member of the WMP Police and Crime Commissioner's Office, an academic with experience in domestic abuse, Prof Vanessa Munro, a lawyer based here at Warwick with extensive experience of domestic abuse research, and a member of the charity sector (NAME CHARITY) and a survivor of domestic abuse (NOMINATED BY THE CHARITY).
 
 
-There is a vast scope for a data-driven approach to generate novel insights to complement qualitative approaches, as is demonstrated by numerous, high-impact publications in other, policy-relevant research topics, from estimating the harm of gambling in the UK using bank transaction data (under review in  _Nature_), [peer effects in police misconduct](https://rdcu.be/bEAue), [nudging customers to increase their credit card debt repayment](https://www.fca.org.uk/publication/occasional-papers/occasional-paper-45.pdf), [and using Big Data to test environmental effects on behaviour and personality](https://www.ncbi.nlm.nih.gov/pubmed/31046588#:~:targetText=Individual%2DLevel%20Analyses%20of%20the%20Impact%20of%20Parasite%20Stress%20on,Openness%20Only%20for%20Older%20Individuals.&targetText=The%20parasite%20stress%20hypothesis%20predicts,and%20extraversion%2C%20but%20higher%20conscientiousness.).   
-In particular, in the gambling paper, we use Lloyds Banking Group transaction data from millions of individuals to demonstrate that gambling is associated with increased financial distress, reduced lifestyle and health outcomes, higher rates of future unemployment and disability, and higher mortality rates. This view is unique and the first ever to demonstrate such associations---again complementing the traditional qualitative case-study and small survey based approach.
+There is a vast scope for a data-driven approach to generate novel insights to complement existing qualitative research, as is demonstrated by numerous, high-impact publications in other, policy-relevant research topics, from estimating the harm of gambling in the UK using bank transaction data (under review in  _Nature_), [peer effects in police misconduct](https://rdcu.be/bEAue), [nudging customers to increase their credit card debt repayment](https://www.fca.org.uk/publication/occasional-papers/occasional-paper-45.pdf), [and using Big Data to test environmental effects on behaviour and personality](https://www.ncbi.nlm.nih.gov/pubmed/31046588#:~:targetText=Individual%2DLevel%20Analyses%20of%20the%20Impact%20of%20Parasite%20Stress%20on,Openness%20Only%20for%20Older%20Individuals.&targetText=The%20parasite%20stress%20hypothesis%20predicts,and%20extraversion%2C%20but%20higher%20conscientiousness.). In particular, in the gambling paper, we use Lloyds Banking Group transaction data from millions of individuals to demonstrate that gambling is associated with increased financial distress, reduced lifestyle and health outcomes, higher rates of future unemployment and disability, and higher mortality rates. This view is unique and the first ever to demonstrate such associations---again complementing the traditional qualitative case-study and small survey based approach.
 
 
 ## Feasibility
@@ -28,42 +28,19 @@ Reviewer 158241287 raises concerns about the feasibility of the project regardin
 
 Having Lloyds Banking Group as a partner in the research is a huge asset. Reviewer 130837269 was concerned that we are only using data from one retail bank (the largest in the UK). It is unnecessary to have data from a second retail bank and would be logistically difficult. By using weighted sampling of the 22 million customers, we can construct any representative sample and still achieve a sample size far in excess of any ever used to study domestic abuse.  
 
+
+
+## The sensitive nature of the research topic
+
+We acknowledge that domestic abuse is an extremely sensitive topic, and any research should be done with the lived experiences of victims in mind. We take the semantic point raised by Reviewer 185645305 about describing children who witness domestic abuse as victims of domestic abuse, noting that the act of witnessing such events is what makes them victims. The reviewer  expressed concern about our proposed analysis investigating criminal behaviour in later life. We believe this arises from a difference of perspectives: we aim to identify the risk factors for later criminal behaviour, not out of a desire to stereotype or assign blame (nor we would allow our findings to be used for such purposes), but to better identify vulnerable individuals. It is an empirical question, whether such individuals are more likely to commit crime later. If they are, we have a societal responsibility to offer support to help them avoid this, not to simply blame. We would also like to note that our data-driven approach will also be able to identify potential protective factors (as suggested by the reviewer).
+
+Reviewer 130837269 is also reluctant about the investigation of certain socio-economic factors, such as the effect of benefit payment systems, expressing concern about potential working class stereotypes. Their assertion is absolutely correct that domestic abuse exists in all sections of society. But note, the word class appears nowhere in the proposal---our proposed research is not about class. Prior research shows a significant role of financial poverty, with the CSEW showing domestic abuse rates 3.5 times higher in very low income homes compared to middle and high income. This is an uncomfortable fact, but ignoring it does not make it false.
+
 -------------
 
 
 
 No one else has or is currently proposing to take a data science view of domestic abuse across multiple, diverse datasets. As 199347314 describes, "most research on domestic abuse in the UK context is qualitative in nature". Previous quantitative work in the area has generally been structured around a single data source (such as the CSEW, _or_ data from a police force), and does not incorporate external sources which can provide additional data on potential causes and environmental risk factors. 
-
-
- 
-5. As the application of multiple, very large datasets to research in domestic abuse is novel, there is no one with the required skills in econometrics and data science who also has a substantial track record in domestic abuse research to conduct this research. Requiring such a background would make it impossible to complete the research, because no such individuals exist. We have acknowledged this from the start, hence our working closely with domestic abuse leads in the police, and why we propose including an advisory panel. 
-
-## Theory
-
-3. 
- 
-## With Data Access Secured Already, the Project is Viable
-
-4. We already have access to all relevant data, as we stated in the proposal. We hold the police data and CSEW data here on servers at Warwick. Postdoc Trendl is already working with Lloyds data and is an employee of Lloyds Banking Group as well as Warwick University. Approvals and data sharing agreements are already signed. We stated in the proposal that access to data is already in place and so were dismayed to see the issue raised by Reviewer 158241287.
-
-1. Having Lloyds Banking Group as a partner in the research is a huge asset. 130837269 was concerned that we are only using data from one retail bank, but this criticism is a misunderstanding. Lloyds are the largest retail bank with 22 million customers. It is unnecessary to have data from a second retail bank and would be logistically difficult. By using weighted sampling of the 22 million, we can construct any representative sample and still achieve a sample size far in excess of any ever used to study domestic abuse.  
-
-2. We are aware of the issues when using police data and CSEW data. For example, Walby and Towers have found that the CSEW underestimates the true extent of domestic abuse as it caps the maximum number of incidents (whereas domestic abuse is often repeated). We are extremely familiar with the West Midlands Police data, and have worked with WMP on projects in stop and search, domestic abuse, risk assessment in custody, and alcohol and police resources. We are mitigating the issues with each data set by using multiple data sets . 
-
-Walby and Towers have found issues with the CSEW - in that it underestimates the true extent of domestic abuse given that it caps the maximum number of incidents (whereas domestic abuse is often repeated). We are aware of this and plan to combine CSEW data with data from other sources.
-
-## The sensitive nature of the research topic
-
-We take the semantic point about describing children who witness male to female intimate partner violence as victims of domestic abuse, noting that the act of witnessing such events is what makes them victims. The user reviewer has made clear their views of the language used to describe such circumstances. The reviewer is clearly reluctant for this component of the research to be completed. We believe this arises from a difference of perspectives: we aim to identify the risk factors for later criminal behaviour, not out of a desire to stereotype or assign blame, but to better identify vulnerable individuals. It is an empirical question, whether such individuals are more likely to commit crime later. If they are, we have a societal responsibility to offer support to help them avoid this, not to simply blame. 
-
-The reviewer is also reluctant about the investigation of certain socio-economic factors such as the effect of benefit payment systems, expressing concern about potential working class stereotypes. Their assertion is absolutely correct that domestic abuse exists in all sections of society. But note, the word class appears nowhere in the proposal---our proposed research is not about class. Prior research shows a significant role of financial poverty, with the CSEW showing domestic abuse rates 3.5 times higher in very low income homes compared to middle and high income. This is an uncomfortable fact, but ignoring it does not make it false.
-
-##Specific points
-
-
-# ################## Unused Text Below Here #################
-
-
 
 
 
