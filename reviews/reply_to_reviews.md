@@ -1,32 +1,14 @@
----
-output:
-  word_document: default
-  html_document: default
----
 # The behavioural economics of domestic abuse
 
-## A data-driven approach
+## Unique and new big-data perspective
 
-Our proposal offers a novel, data-driven approach to deepen our existing knowledge of domestic abuse in the UK. We use data from West Midlands Police (serving a population of 2.9 million people), Lloyds Banking Group (the UK's largest retail bank with 22 million customers), and the Crime survey for England and Wales (CSEW; the most extensive national-level survey about domestic abuse victimisation in the UK). Our approach will derive novel insights to complement the existing body of domestic abuse research in the UK, which was predominantly generated through qualitative research methods, such as case studies and interviews. It is from this qualitative background that the reviewers appear to have come, and while all scientific reviwers mention the importance of using a quantitative approach to study domestic abuse and exploiting the rich information in the CSEW, they do not appear to fully recognise the . Secondary data analysis
+We bring a data science approach to the study of domestic abuse data. We use data from West Midlands Police (serving X.X million people), Lloyds Banking Group (the UK's largest retail bank with 22 million customers), and the Crime survey for England and Wales. Our approach is new and ambitious, yet eminently feasible as we already hold the necessary data. We have support from Deputy Chief constable Louisa Rolfe at West Midlands Police, who is also the National Police Chiefs' Council lead for domestic abuse. Named postdoc Trendl works as a postdoc here at Warwick and is also an employee of Lloyds Banking Group in their behavioural and data science team. We have director level support from Lloyds Banking Group for the project. Applying data at this scale to the study of domestic abuse has never been done before. 
 
-For example, the reviewers pointed out that we do not discuss previous literature in detail and that our proposed research programme does not seem to be embedded in an established theoretical framework. We are familiar with the research papers mentioned by the reviewers, and these heavily influenced our proposed analyses (as our primary aim was to address gaps in the literature and complement existing knowledge using novel data sources). However, it should be recognised that it is simply not possible to provide a literature review and detailed analysis plan within the given page limits, especially given the scale of our project. We do not have a explicit theoretical framework, as our research programme is guided by data. 
+We were dismayed by the reviews. Our approach contrasts with the qualitative approach using case studies and interviews. It is from this qualitative background that the reviewers appear to have come. Although the reviewers identified that there is a need for quantitative research, in a field dominated by qualitative work, they subsequently focused their reviews on qualitative models and theory. Reviewer 199347314 even suggests that a data driven approach is a negative aspect of the proposal. Something we found particularly incongruous given that this is a proposal for the Secondary Data Analysis Initiative. Furthermore, recent results from a related ESRC grant have shown that existing models such as DASH have little to no explanatory power when tested empirically, hence demonstrating the desperate need for analyses that are quantitative and data driven
+ 
+The reviewers' criticism is focused on us as new researchers in their domain and on the feasibility of the work. We mitigate the former risk by working with an advisory board and including coauthors from a domestic abuse background. We mitigate the latter risk by already holding or having access to all of the data needed for the project, with necessary data sharing and other legal agreements signed and in place. 
 
-
-
-Our proposal focuses on   
-
-
-Our approach is new and ambitious, 
-
-
-
-yet eminently feasible, as we already hold the necessary data. We have support from Deputy Chief constable Louisa Rolfe at West Midlands Police, who is also the National Police Chiefs' Council lead for domestic abuse. Named postdoc Trendl works as a postdoc here at Warwick and is also an employee of Lloyds Banking Group in their behavioural and data science team. We have director level support from Lloyds Banking Group for the project. Applying data at this scale to the study of domestic abuse has never been done before. 
-
-We were dismayed by the lack of recognition regarding the unique potential of utilising these extensive datasets and derive novel, policy-relevant insights about domestic abuse. 
-
-
-Only reviewer appreciated the need for a large-scale quantitative approach in domain dominated by qualitative research. Reviewer 158241287 raised issues about access to data, even though we already have access to all of the data required and stated so in the proposal.
-Our approach contrasts with the qualitative approach using case studies and interviews. Our findings will complement this qualitative literature. It is from this qualitative background that the reviewers appear to have come---no reviewer had expertise in data science or econometrics. Their criticism is focussed on us as new researchers in their domain and on the feasibility of the work. We mitigate the former risk by working with an advisory board and including coauthors from a domestic abuse background. We mitigate the latter risk by already holding or having access to all of the data needed for the project, with necessary data sharing and other legal agreements signed and in place. 
+% Reviewer 158241287 raised issues about access to data, even though we already have access to all of the data required and stated so in the proposal.
 
 ## Research team experience
 
