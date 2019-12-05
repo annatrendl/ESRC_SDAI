@@ -12,6 +12,7 @@ Our proposal aims to bring a data science approach to the study of domestic abus
 We were dismayed by the reviews. Our approach contrasts with the qualitative approach and it is from this background that the reviewers appear to have come. Although the reviewers identified that there is a need for quantitative research, in a field dominated by qualitative work, they subsequently focused their reviews on qualitative models and theory. Reviewer 199347314 even suggests that a data driven approach is a negative aspect of the proposal. Something we found particularly incongruous given that this is a proposal for the Secondary Data Analysis Initiative. Furthermore, recent results from a related ESRC grant have shown that existing models such as DASH have little to no explanatory power when tested empirically, hence demonstrating the desperate need for analyses that are quantitative and data driven
  
 
+It is not possible to provide a complete review of the literature in a six page proposal whilst also clearly outlining our analysis strategy, especially given the scale of the project. We are fully aware of the studies by Walby and Towers, and we agree they are important seminal works highlighting the limitations of the CSEW. However, our proposal builds upon the qualitative findings and analysis of the CSEW, by integrating far more data, from more sources, and using more advanced data analytic techniques.
 
 ## Research team experience
 
@@ -26,7 +27,7 @@ We will also establish an advisory board for the project, comprising a senior po
 
 One reviewer raised concerns about the feasibility of the project regarding access to the data. We would like to clarify that we already hold the necessary data. In addition, we have support from Deputy Chief constable Louisa Rolfe at West Midlands Police, who is also the National Police Chiefs' Council lead for domestic abuse. Named postdoc Trendl works here at Warwick and is also an employee of Lloyds Banking Group in their behavioural and data science team. We have director level support from Lloyds Banking Group for the project. Applying data at this scale to the study of domestic abuse has never been done before. 
 
-One reviewer raised concerns about the feasibility of the project regarding access to the data. We would like to clarify that we already hold the necessary data (with the exception of the CSEW, which is accessible for academic research). In addition, we have support from Deputy Chief constable Louisa Rolfe at West Midlands Police, who is also the National Police Chiefs' Council lead for domestic abuse. Named postdoc Trendl works as a postdoc here at Warwick and is also an employee of Lloyds Banking Group in their behavioural and data science team. We have director level support from Lloyds Banking Group for the project. Applying data at this scale to the study of domestic abuse has never been done before. 
+One reviewer raised concerns about the feasibility of the project regarding access to the data. We would like to clarify that we already hold the necessary data on our servers here at Warwick. In addition, we have support from Deputy Chief constable Louisa Rolfe at West Midlands Police, who is also the National Police Chiefs' Council lead for domestic abuse. Named postdoc Trendl works as a postdoc here at Warwick and is also an employee of Lloyds Banking Group in their behavioural and data science team. We have director level support from Lloyds Banking Group for the project. Applying data at this scale to the study of domestic abuse has never been done before. 
 
 
 -------------
@@ -41,9 +42,7 @@ No one else has or is currently proposing to take a data science view of domesti
 
 ## Theory
 
-3. It is not possible to provide a complete review of the literature in a six page proposal. Not is it reasonable to cite studies that are not directly relevant. We are fully aware of the studies XXXXX and the ESRC funded proposal XXXXX. The latter focusses upon testing the existing DASH framework, and recent outputs have shown that it has little to no explanatory power for identifying at-risk individuals. Hence our proposed research to build upon this by identifying reliable indicative patterns in a data science approach.
-
-We are familiar with the Walby papers described by XXX on the cost of domestic abuse. We agree they are important seminal works. Our proposal builds upon the qualitative findings and analysis of the CSEW, by integrating far more data, from more sources, and using more advanced data analytic techniques.
+3. 
  
 ## With Data Access Secured Already, the Project is Viable
 
