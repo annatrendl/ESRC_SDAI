@@ -18,17 +18,17 @@ Adams, P., Guttman-Kenney, B., Hayes, L., Hunt, S., Laibson, D., & Stewart, N. (
 
 Muggleton, Parpart, Newall, Leake, Gathergood, Stewart "Gambling-related harm in mass transaction data" Under review at _Nature_.) For example, in the paper on gambling we use Lloyds Banking Group transaction data from millions of individuals to demonstrate that gambling is associated with increased financial distress, reduced lifestyle and health outcomes, higher rates of future unemployment and disability, and higher mortality rates. This view is unique and the first ever to demonstrate such associations---again complementing the traditional qualitative case-study and small survey based approach. I THINK THE GAMBLING EXAMPLE IS A GOOD EXAMPLE OF WHAT WE WILL DELIVER FOR DOMESTIC ABUSE.)
 
-We are familiar with the Walby papers described by XXX on the cost of domestic abuse. We agree they are important seminal works. Our proposal builds upon the qualitative findings and analysis of the CSEW, by integrating far more data, from more sources, and using more advanced data analytic techniques.
-
-  
-5. As the application of multiple, very large datasets to research in domestic abuse is novel, there is no one with the required skills in econometrics and data science who also has a substantial track record in domestic abuse research to conduct this research. Requiring such a background would make it impossible to complete the research, because no such individuals exist. We have acknowledged this from the start, hence our working closely with domestic abuse leads in the police, and why we propose including an advisory panel. 
-
 We will establish an advisory board for the project, comprising a senior police officer from West Midlands Police, a senior member of the WMP Police and Crime Commissioner's Office, an academic with experience in domestic abuse, Prof Vanessa Munro, a lawyer based here at Warwick with extensive experience of domestic abuse, and a member of the charity sector (NAME CHARITY) and a survivor of domestic abuse (NOMINATED BY THE CHARITY).
+
+ 
+5. As the application of multiple, very large datasets to research in domestic abuse is novel, there is no one with the required skills in econometrics and data science who also has a substantial track record in domestic abuse research to conduct this research. Requiring such a background would make it impossible to complete the research, because no such individuals exist. We have acknowledged this from the start, hence our working closely with domestic abuse leads in the police, and why we propose including an advisory panel. 
 
 # Theory
 
 3. It is not possible to provide a complete review of the literature in a six page proposal. Not is it reasonable to cite studies that are not directly relevant. We are fully aware of the studies XXXXX and the ESRC funded proposal XXXXX. The latter focusses upon testing the existing DASH framework, and recent outputs have shown that it has little to no explanatory power for identifying at-risk individuals. Hence our proposed research to build upon this by identifying reliable indicative patterns in a data science approach.
 
+We are familiar with the Walby papers described by XXX on the cost of domestic abuse. We agree they are important seminal works. Our proposal builds upon the qualitative findings and analysis of the CSEW, by integrating far more data, from more sources, and using more advanced data analytic techniques.
+ 
 # Feasibility of the work
 
 4. We already have access to all relevant data, as we stated in the proposal. We hold the police data and CSEW data here on servers at Warwick. Postdoc Trendl is already working with Lloyds data and is an employee of Lloyds Banking Group as well as Warwick University. Approvals and data sharing agreements are already signed. We stated that access to data is in place and so were dismayed to see the issue raised by reviewers XXX, XXX.
@@ -38,11 +38,6 @@ We will establish an advisory board for the project, comprising a senior police 
 2. We are aware of the issues when using police data and CSEW data. For example, Walby and Towers have found that the CSEW underestimates the true extent of domestic abuse as it caps the maximum number of incidents (whereas domestic abuse is often repeated). We are extremely familiar with the West Midlands Police data, and have worked with WMP on projects in stop and search, domestic abuse, risk assessment in custody, and alcohol and police resources. We are mitigating the issues with each data set by using multiple data sets . 
 
 Walby and Towers have found issues with the CSEW - in that it underestimates the true extent of domestic abuse given that it caps the maximum number of incidents (whereas domestic abuse is often repeated). We are aware of this and plan to combine CSEW data with data from other sources.
-
-
-
-## There are factual errors in the reviews:
-
 
 
 # The sensitive nature of the research topic
