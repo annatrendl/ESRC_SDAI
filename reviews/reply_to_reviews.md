@@ -26,7 +26,7 @@ We will also establish an advisory board for the project, comprising a senior po
 
 % Reviewer 158241287 raised issues about access to data, even though we already have access to all of the data required and stated so in the proposal.
 
-One reviewer raised concerns about the feasibility of the project regarding access to the data. We would like to clarify that we already hold the necessary data (with the exception of the CSEW, which is accessible for academic research). In addition, we have support from Deputy Chief constable Louisa Rolfe at West Midlands Police, who is also the National Police Chiefs' Council lead for domestic abuse. Named postdoc Trendl works as a postdoc here at Warwick and is also an employee of Lloyds Banking Group in their behavioural and data science team. We have director level support from Lloyds Banking Group for the project. Applying data at this scale to the study of domestic abuse has never been done before. 
+One reviewer raised concerns about the feasibility of the project regarding access to the data. We would like to clarify that we already hold the necessary data on our servers here at Warwick. In addition, we have support from Deputy Chief constable Louisa Rolfe at West Midlands Police, who is also the National Police Chiefs' Council lead for domestic abuse. Named postdoc Trendl works as a postdoc here at Warwick and is also an employee of Lloyds Banking Group in their behavioural and data science team. We have director level support from Lloyds Banking Group for the project. Applying data at this scale to the study of domestic abuse has never been done before. 
 
 
 -------------
