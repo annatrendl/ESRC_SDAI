@@ -27,6 +27,9 @@ One reviewer raised concerns about the feasibility of the project regarding acce
 
 One reviewer raised concerns about the feasibility of the project regarding access to the data. We would like to clarify that we already hold the necessary data on our servers here at Warwick. In addition, we have support from Deputy Chief constable Louisa Rolfe at West Midlands Police, who is also the National Police Chiefs' Council lead for domestic abuse. Named postdoc Trendl works as a postdoc here at Warwick and is also an employee of Lloyds Banking Group in their behavioural and data science team. We have director level support from Lloyds Banking Group for the project. Applying data at this scale to the study of domestic abuse has never been done before. 
 
+Having Lloyds Banking Group as a partner in the research is a huge asset. Reviewer 130837269 was concerned that we are only using data from one retail bank, but this criticism is a misunderstanding. Lloyds are the largest retail bank with 22 million customers. It is unnecessary to have data from a second retail bank and would be logistically difficult. By using weighted sampling of the 22 million, we can construct any representative sample and still achieve a sample size far in excess of any ever used to study domestic abuse.  
+
+As the application of multiple, very large datasets to research in domestic abuse is novel, there is no one with the required skills in econometrics and data science who also has a substantial track record in domestic abuse research to conduct this research. Requiring such a background would make it impossible to complete the research, because no such individuals exist. We have acknowledged this from the start, hence our working closely with domestic abuse leads in the police, and why we propose including an advisory panel. 
 
 -------------
 
@@ -62,39 +65,6 @@ The reviewer is also reluctant about the investigation of certain socio-economic
 
 
 # ################## Unused Text Below Here #################
-
-%We have studied the currently funded ESRC project INSERT PROJECT NAME AND PI. Our proposal is quite different and compliments this work without duplication.
-
-##Anna comments
-
-###no previous experience in domestic abuse research/no collaboration with experts
-not sure what's the appropriate response to this
-
-
-###too data-driven/no clear theoretical framework or mention or previous studies/issues about originality as some of the questions have either been examined in the context of other countries or with a qualitative approach
-we are combining data from various sources to address key questions that either have never been examined or have only been examined using one approach - fresh perspectice argument, and emphasize the importance of data driven research. The mentioned {r} [ESRC grant] (https://gtr.ukri.org/projects?ref=ES/M01178X/1) looks at improving the DASH using "more sophisticated algorithms than a traditional logistic regression framework." -- I can't find more details on this, but they seem to be only using police data, whereas we are taking a broader view by relying on the very detailed information in the CSEW as well. We are also aware of the US literature on domestic abuse victimisation risk factors (which informed our selection of explanatory variables in the proposed analyses), however, we believe that we still lack the proper evidence base for understanding domestic abuse victimisation in the Uk. Despite of the documented issues with the CSEW, it is an incredibly rich and useful source of information on domestic abuse victimisation, which has not been exploited. Combining insights from the CSEW and police data will complement and validate existing knowledge from qualitative invetsigations.
-
-###issues with the CSEW
-####data quality/data access issues/timescales
-
-
-####"worrying" assumptions
-
-
-###specific points: 
-
-
-
-young person living at the address -- we'll know this from police records
-police mis-reporting -- comparison of csew and police reports
-reliability of data, ethnicity -- 
-children, only a year of data //
-different explanatory variables for question 1--
-random forest not explaiend--
-causal effects --
-no domestic abuse journals--
-no mention of cost--
-
 
 
 
